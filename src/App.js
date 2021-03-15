@@ -1,4 +1,7 @@
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import About from "./components/About";
+import Landing from "./components/Landing";
 
 function App() {
   return (
@@ -6,13 +9,19 @@ function App() {
       {/* SOCIAL MEDIAS NAVBAR */}
       <nav class="topnav bg-dark  ">
         <div class="text-left">
-          <a href="/#" class="teal-text text-darken-0">
+          <a
+            href="https://twitter.com/justpruthvi"
+            class="teal-text text-darken-0"
+          >
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="/#" class="teal-text text-darken-0">
+          <a
+            href="https://www.instagram.com/prutzz10/"
+            class="teal-text text-darken-0"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="/#" class="teal-text text-darken-0">
+          <a href="https://github.com/pruthvz" class="teal-text text-darken-0">
             <i class="fab fa-github"></i>
           </a>
           <a href="/#" class="teal-text text-darken-0">
@@ -23,7 +32,7 @@ function App() {
       {/* THE ACTUAL NAVBAR */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-black">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/project-atlas/">
             <i className="fas fa-exclamation text-danger"></i> oopsDev
           </a>
           <button
@@ -40,13 +49,13 @@ function App() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto pr-2">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/#">
+                <a className="nav-link " aria-current="page" href="/#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
-                  Features
+                <a className="nav-link" href="/project-atlas/about">
+                  About
                 </a>
               </li>
               <li className="nav-item">
@@ -58,6 +67,10 @@ function App() {
           </div>
         </div>
       </nav>
+      <Router>
+        <Route exact path="/project-atlas/" component={Landing} />
+        <Route path="/project-atlas/about" component={About} />
+      </Router>
     </div>
   );
 }

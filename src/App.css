@@ -18,6 +18,7 @@
   font-family: var(--sanspro);
 }
 
+/* Navbar */
 .navbar {
   border-radius: 0px;
 }
@@ -44,6 +45,7 @@
   color: var(--primaryColor) !important;
 }
 
+/* Social media top navbar */
 .topnav {
   padding: 8px;
   background: #192227 !important;
