@@ -1,4 +1,57 @@
-body {
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Open+Sans&display=swap");
+
+:root {
+  --sans: "Open Sans", sans-serif;
+  --sanspro: "Open Sans", sans-serif;
+  --libre: "Libre Franklin", sans-serif;
+  --primaryColor: #21e6c1;
+  --secondaryColor: #1f4287;
+  --bgColor: #071e3d;
+}
+
+* {
   padding: 0;
   margin: 0;
+  font-family: var(--sanspro);
+}
+
+.navbar {
+  border-radius: 0px;
+}
+
+.navbar-brand {
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+  color: var(--primaryColor) !important;
+  position: relative;
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 20px !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--primaryColor) !important;
+}
+.active {
+  color: var(--primaryColor) !important;
+}
+
+.topnav {
+  padding: 8px;
+  background: #192227 !important;
+}
+.topnav a {
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.topnav a:hover {
+  color: var(--primaryColor) !important;
 }
