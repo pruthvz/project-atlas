@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
 import Landing from "./components/Landing";
@@ -15,6 +15,17 @@ function App() {
           <Route path="/project-atlas/about" exact component={About} />
         </Switch>
       </Router>
+
+      {/* IN PROGRESS MESSAGE DISPLAY */}
+      <marquee
+        behavior="scroll"
+        direction="right"
+        className="red darken-1 text-white"
+      >
+        Website is still under construction, project atlas is in progress. Visit
+        me later ♥
+      </marquee>
+      {/* IN PROGRESS MESSAGE DISPLAY [DELETE LATER] */}
     </div>
   );
 }

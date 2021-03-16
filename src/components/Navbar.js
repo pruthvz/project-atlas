@@ -3,62 +3,59 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      {/* SOCIAL MEDIAS NAVBAR */}
-      <nav class="topnav bg-dark  ">
-        <div class="text-left">
-          <a
-            href="https://twitter.com/justpruthvi"
-            class="teal-text text-darken-0"
-          >
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/prutzz10/"
-            class="teal-text text-darken-0"
-          >
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://github.com/pruthvz" class="teal-text text-darken-0">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="/#" class="teal-text text-darken-0">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </div>
-      </nav>
       {/* THE ACTUAL NAVBAR */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+      <nav className="navbar navbar-expand-lg navbar-dark elegant-color-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/project-atlas/">
-            <i className="fas fa-exclamation text-danger"></i> oopsDev
+            <i className="fas fa-exclamation red-text "></i> oopsDev
           </a>
           <button
-            className="navbar-toggler"
+            class="navbar-toggler"
             type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <i className="fas fa-bars"></i>
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ml-auto pr-2">
-              <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="/#">
-                  Home
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto pr-2">
+              <Link to="/project-atlas/" className="nav-item">
+                <li className="nav-link active">Home</li>
+              </Link>
+
+              <Link to="/project-atlas/about" className="nav-item">
+                <li className="nav-link">About</li>
+              </Link>
+              <Link to="/project-atlas/contact" className="nav-item">
+                <li className="nav-link">Contact</li>
+              </Link>
+            </ul>
+            <ul class="socials navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a
+                  href="https://twitter.com/justpruthvi"
+                  className="nav-link text-white"
+                >
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
-
-              <Link to="/project-atlas/about">
-                <li className="nav-item">
-                  <a className="nav-link">About</a>
-                </li>
-              </Link>
-              <li className="nav-item">
-                <a className="nav-link" href="/#">
-                  Pricing
+              <li class="nav-item">
+                <a
+                  href="https://www.instagram.com/prutzz10/"
+                  className="nav-link text-white"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="https://github.com/pruthvz"
+                  className="nav-link text-white"
+                >
+                  <i className="fab fa-github"></i>
                 </a>
               </li>
             </ul>

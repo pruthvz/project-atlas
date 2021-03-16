@@ -2,14 +2,3 @@
   padding: 0;
   margin: 0;
 }
-
-.wip {
-  margin: 0px !important;
-  /* margin-bottom: -8px !important; */
-  background: #f4511e !important;
-}
-
-.wip marquee {
-  position: relative;
-  top: 3px !important;
-}
