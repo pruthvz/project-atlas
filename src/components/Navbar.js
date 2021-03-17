@@ -6,8 +6,8 @@ function Navbar() {
       {/* THE ACTUAL NAVBAR */}
       <nav className="navbar navbar-expand-lg navbar-dark elegant-color-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/project-atlas/">
-            <i className="fas fa-exclamation red-text "></i> oopsDev
+          <a className="navbar-brand " href="/project-atlas/">
+            <i class="fad fa-angle-double-up red-text"></i> oopsDev
           </a>
           <button
             class="navbar-toggler"
