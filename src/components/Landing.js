@@ -11,21 +11,12 @@ function Landing() {
   return (
     <div>
       <header>
-        <div class="overlay"></div>
-        <video
-          playsinline="playsinline"
-          autoplay="autoplay"
-          muted="muted"
-          loop="loop"
-        >
-          <source src={codingVid} type="video/mp4" />
-        </video>
         <div class="container h-100">
           <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
               <h1 class="display-1">Web Developent</h1>
               <p class="lead mb-0 ">Useful and bookmark worthy websites!</p>
-              <a className="btn-change8 btn  btn-lg mt-3" href="#providing">
+              <a className="btn-change8 btn  btn-lg mt-4" href="#providing">
                 Bookmark me
               </a>
             </div>

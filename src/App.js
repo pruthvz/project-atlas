@@ -20,7 +20,7 @@ function App() {
       <marquee
         behavior="scroll"
         direction="right"
-        className="red darken-1 text-white"
+        className="deep-purple darken-1 text-white"
       >
         <i class="fad fa-user-ninja"></i> Website is still under construction,
         project atlas is in progress. Visit me later ♥
