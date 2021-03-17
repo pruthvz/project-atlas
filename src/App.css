@@ -32,7 +32,9 @@ html {
 /* Navbar */
 .navbar {
   border-radius: 0px;
-  background: var(--bgColor) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transition: all 0.4s;
 }
 
 .navbar-brand {
@@ -58,9 +60,12 @@ html {
 }
 .active {
   color: var(--lightpurple) !important;
-  font-weight: lighter !important;
+  font-weight: 600 !important;
 }
 
+.bgActive {
+  background: #000000 !important;
+}
 /* Social media top navbar */
 
 marquee {
@@ -76,6 +81,41 @@ header {
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* black background */
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 header .container {
@@ -104,11 +144,28 @@ header .container a {
 }
 
 .card .front-Img {
-  box-shadow: rgba(100, 100, 111, 0.108) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.05) 0px 7px 29px 0px;
 }
 
 .what-we-provide {
-  background: #212121;
+  background: rgb(243, 243, 243);
+}
+
+.what-we-provide .provideInfo h1 {
+  font-family: var(--mon) !important;
+}
+
+.what-we-provide .provideInfo p {
+  font-family: var(--mon);
+}
+
+.card .card-body h5 {
+  font-family: var(--mon);
+  font-weight: 500;
+}
+
+.card .card-body p {
+  font-family: var(--mon);
 }
 
 /* MOBILE MEDIA QUERIES  */
@@ -135,3 +192,11 @@ header .container a {
   -webkit-box-shadow: -200px 0 0 #6e1ab8 inset;
   color: white !important;
 }
+
+/* navbar-dark elegant-color-dark
+
+.navbar {
+border-radius: 0px;
+background: transparent !important;
+transition: all 0.4s;
+} */

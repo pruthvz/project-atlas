@@ -10,10 +10,9 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>
-          <Route path="/project-atlas/" exact component={Landing} />
-          <Route path="/project-atlas/about" exact component={About} />
-        </Switch>
+        <Route path="/project-atlas/" exact component={Landing} />
+        <Route path="/project-atlas/about" exact component={About} />
+        <Switch></Switch>
       </Router>
 
       {/* IN PROGRESS MESSAGE DISPLAY */}

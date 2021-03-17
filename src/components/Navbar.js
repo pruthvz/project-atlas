@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 function Navbar() {
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBg = () => {
+    if (window.scrollY >= 100) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBg);
+
   return (
     <div>
       {/* THE ACTUAL NAVBAR */}
-      <nav className="navbar navbar-expand-lg navbar-dark elegant-color-dark">
+      <nav
+        className={
+          navbar
+            ? "navbar navbar-expand-lg fixed-top navbar-dark bgActive "
+            : "navbar navbar-expand-lg fixed-top navbar-dark"
+        }
+      >
         <div className="container-fluid">
           <a className="navbar-brand " href="/project-atlas/">
             <i class="fad fa-angle-double-up red-text"></i> oopsDev

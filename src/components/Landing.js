@@ -5,12 +5,22 @@ import "../App.css";
 import DevelopmentImg from "../assets/development.png";
 import DesignImg from "../assets/design.png";
 import SourceImg from "../assets/source.png";
-import codingVid from "../assets/coding.mp4";
+
+import Coding from "../assets/coding.mp4";
 
 function Landing() {
   return (
     <div>
       <header>
+        <div class="overlay"></div>
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+        >
+          <source src={Coding} type="video/mp4" />
+        </video>
         <div class="container h-100">
           <div class="d-flex h-100 text-center align-items-center">
             <div class="w-100 text-white">
@@ -24,12 +34,12 @@ function Landing() {
         </div>
       </header>
 
-      <section className="what-we-provide pt-5" id="providing">
+      <section className="what-we-provide pt-5 pb-5" id="providing">
         <div className="container text-center">
-          <div class="w-100 text-white">
-            <h1> One Website</h1>
+          <div class="w-100 text-dark provideInfo">
+            <h1 className="mt-5"> One Website</h1>
             <p>
-              <i class="fad fa-angle-double-down teal-text"></i> Collaborative
+              <i class="fad fa-angle-double-down purple-text"></i> Collaborative
               list of resources for developers in one place!
             </p>
           </div>
