@@ -18,11 +18,11 @@ function App() {
       {/* IN PROGRESS MESSAGE DISPLAY */}
       <marquee
         behavior="scroll"
-        direction="right"
+        direction="left"
         className="deep-purple darken-1 text-white"
       >
-        <i class="fad fa-user-ninja"></i> Website is still under construction,
-        project atlas is in progress. Visit me later ♥
+        <i className="fad fa-user-ninja"></i> Website is still under
+        construction, project atlas is in progress. Visit me later ♥
       </marquee>
       {/* IN PROGRESS MESSAGE DISPLAY [DELETE LATER] */}
     </div>

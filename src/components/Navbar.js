@@ -26,10 +26,10 @@ function Navbar() {
       >
         <div className="container-fluid">
           <a className="navbar-brand " href="/project-atlas/">
-            <i class="fad fa-angle-double-up red-text"></i> oopsDev
+            <i className="fad fa-angle-double-up red-text"></i> oopsDev
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -37,9 +37,9 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto pr-2">
               <Link to="/project-atlas/" className="nav-item">
                 <li className="nav-link active">Home</li>
@@ -52,8 +52,8 @@ function Navbar() {
                 <li className="nav-link">Contact</li>
               </Link>
             </ul>
-            <ul class="socials navbar-nav nav-flex-icons">
-              <li class="nav-item">
+            <ul className="socials navbar-nav nav-flex-icons">
+              <li className="nav-item">
                 <a
                   href="https://twitter.com/justpruthvi"
                   className="nav-link text-white"
@@ -61,7 +61,7 @@ function Navbar() {
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
                   href="https://www.instagram.com/prutzz10/"
                   className="nav-link text-white"
@@ -69,7 +69,7 @@ function Navbar() {
                   <i className="fab fa-instagram"></i>
                 </a>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <a
                   href="https://github.com/pruthvz"
                   className="nav-link text-white"

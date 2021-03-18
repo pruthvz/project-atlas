@@ -176,6 +176,23 @@ header .container a {
     font-weight: 300;
     line-height: 1;
   }
+  /* Navbar */
+  .navbar {
+    border-radius: 0px;
+    background: var(--bgColor) !important;
+    box-shadow: none !important;
+    transition: all 0.4s;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  /* Navbar */
+  .navbar {
+    border-radius: 0px;
+    background: #121212 !important;
+    box-shadow: none !important;
+    transition: all 0.4s;
+  }
 }
 
 .btn-change8 {
@@ -184,12 +201,12 @@ header .container a {
   border-radius: 40px;
   color: #fff;
   box-shadow: 0 0 1px #ccc;
-  -webkit-transition-duration: 0.4s;
-  -webkit-transition-timing-function: linear;
+  transition-duration: 0.4s;
+  transition-timing-function: linear;
   box-shadow: 0px 0 0 #7b27c5de inset;
 }
 .btn-change8:hover {
-  -webkit-box-shadow: -200px 0 0 #6e1ab8 inset;
+  box-shadow: -200px 0 0 #6e1ab8 inset;
   color: white !important;
 }
 
@@ -200,3 +217,9 @@ border-radius: 0px;
 background: transparent !important;
 transition: all 0.4s;
 } */
+
+/* OPEN SOURCE STYLING */
+
+.open-src .card .card-body .card-title {
+  font-family: var(--mon);
+}
