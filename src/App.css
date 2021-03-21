@@ -126,6 +126,7 @@ header .container {
 
 header .container h1 {
   font-family: var(--mon) !important;
+  font-weight: 600;
 }
 
 header .container p {
@@ -157,6 +158,7 @@ header .container a {
 
 .what-we-provide .provideInfo p {
   font-family: var(--mon);
+  /* font-weight: 600; */
 }
 
 .card .card-body h5 {
@@ -222,4 +224,19 @@ transition: all 0.4s;
 
 .open-src .card .card-body .card-title {
   font-family: var(--mon);
+}
+
+/* FEATURES STYLING HERE */
+.features {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.feature-btn:hover {
+  background: #7e57c2 !important;
+  color: white !important;
+}
+
+.features .card {
+  height: 520px !important;
 }
