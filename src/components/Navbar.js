@@ -20,8 +20,8 @@ function Navbar() {
       <nav
         className={
           navbar
-            ? "navbar navbar-expand-lg fixed-top navbar-dark bgActive "
-            : "navbar navbar-expand-lg fixed-top navbar-dark"
+            ? "navbar navbar-expand-lg fixed-top navbar-dark bgActive"
+            : "navbar navbar-expand-lg fixed-top navbar-dark "
         }
       >
         <div className="container-fluid">
@@ -42,12 +42,13 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto pr-2">
               <Link to="/project-atlas/" className="nav-item">
-                <li className="nav-link active">Home</li>
+                <li className="nav-link">Home</li>
               </Link>
 
               <Link to="/project-atlas/about" className="nav-item">
                 <li className="nav-link">About</li>
               </Link>
+
               <Link to="/project-atlas/contact" className="nav-item">
                 <li className="nav-link">Contact</li>
               </Link>

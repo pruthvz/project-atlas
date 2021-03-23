@@ -42,6 +42,7 @@ html {
   transition: all 0.3s ease-in-out;
   font-family: var(--mon);
   font-weight: 600;
+  color: white;
 }
 
 .navbar-brand:hover {
@@ -53,10 +54,13 @@ html {
 .navbar-nav .nav-item .nav-link {
   font-family: var(--sanspro);
   padding: 20px !important;
+  color: white;
+  transition: all 0.3 ease-in-out;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
   color: var(--primaryColor) !important;
+  font-weight: bold;
 }
 .active {
   color: var(--lightpurple) !important;
@@ -66,6 +70,7 @@ html {
 .bgActive {
   background: #000000 !important;
 }
+
 /* Social media top navbar */
 
 marquee {
@@ -240,6 +245,13 @@ transition: all 0.4s;
   padding-top: 80px;
   padding-bottom: 120px;
 }
+.features .featuresInfo h1 {
+  font-family: var(--mon);
+}
+
+.features .featuresInfo p {
+  font-family: var(--mon);
+}
 
 .feature-btn:hover {
   background: #7d47dc !important;
@@ -277,7 +289,7 @@ transition: all 0.4s;
 
 .community .container .comInfo h3 {
   font-family: var(--mon) !important;
-  font-size: 35px !important;
+  font-size: 32px !important;
   margin-bottom: 20px;
 }
 

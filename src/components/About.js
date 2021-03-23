@@ -57,7 +57,7 @@ function About() {
         <div className="container">
           <div className="col-md-12">
             <div className="comInfo">
-              <h3 className="font-weight-bold">A friendly community 👩🏽‍💻🍻</h3>
+              <h3 className="font-weight-bold">A friendly community 👩🏽‍💻☕</h3>
               <p>
                 The website is created using React.js, we have also used
                 external libraries including, Material Design Bootstrap, Font
