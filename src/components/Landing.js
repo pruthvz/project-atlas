@@ -66,8 +66,8 @@ function Landing() {
         data-ride="carousel"
         data-interval="5000"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <header>
               <div className="overlay"></div>
               <video
@@ -96,7 +96,7 @@ function Landing() {
               </div>
             </header>
           </div>
-          <div class="carousel-item ">
+          <div className="carousel-item ">
             <header>
               <div className="overlay"></div>
               <video
@@ -126,7 +126,7 @@ function Landing() {
               </div>
             </header>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <header>
               <div className="overlay"></div>
               <video
@@ -157,22 +157,28 @@ function Landing() {
           </div>
         </div>
         <a
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           href="#carouselExampleControls"
           role="button"
           data-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="sr-only">Previous</span>
         </a>
         <a
-          class="carousel-control-next"
+          className="carousel-control-next"
           href="#carouselExampleControls"
           role="button"
           data-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="sr-only">Next</span>
         </a>
       </div>
       {/* Shreysh why u looking here */}
@@ -180,7 +186,7 @@ function Landing() {
       <section className="what-we-provide pt-5 pb-5 " id="providing">
         <div className="container text-center">
           <div className="w-100 text-dark provideInfo">
-            <h1 className="mt-5"> One Website</h1>
+            <h1 className="mt-5 display-4"> One Place</h1>
             <p>
               <i className="fad fa-angle-double-down purple-text "></i>
               Collaborative list of resources for developers in one place!
@@ -250,11 +256,11 @@ function Landing() {
 
       <section className="open-src unique-color-dark text-white pt-5 pb-5 p-3">
         <div className="col-md-10 mx-auto">
-          <div class="card  rgba-stylish-strong rounded">
+          <div className="card  rgba-stylish-strong rounded">
             <div className="mask">
               <div class="card-body text-white">
                 <h1 className="card-title display-4">Open Source</h1>
-                <p class="card-text text-light">
+                <p className="card-text text-light">
                   We believe in the strength of the community. Hence why we
                   chose open source project. We would love to see other
                   developers contributing with the project, to provide great
@@ -264,7 +270,7 @@ function Landing() {
                   href="https://github.com/pruthvz/project-atlas"
                   rel="noreferrer"
                   target="_blank"
-                  class="btn deep-purple text-white rounded-pill"
+                  className="btn deep-purple text-white rounded-pill"
                 >
                   Join Community
                 </a>
@@ -272,16 +278,19 @@ function Landing() {
             </div>
           </div>
 
-          <div class="card  rgba-stylish-strong">
+          <div className="card  rgba-stylish-strong">
             <div className="mask">
-              <div class="card-body text-dark">
+              <div className="card-body text-dark">
                 <h6 className="card-title text-white">Hashtags</h6>
                 <h1 className="card-title badge badge-light rounded-pill mr-2">
-                  <i class="fab fa-osi"></i> Open Source
+                  <i className="fab fa-osi"></i> Open Source
                 </h1>
                 {hashtags.map(function (tags, index) {
                   return (
-                    <h1 className="card-title badge badge-light  rounded-pill mr-2">
+                    <h1
+                      className="card-title badge badge-light  rounded-pill mr-2"
+                      key={index}
+                    >
                       {tags}
                     </h1>
                   );
@@ -304,26 +313,29 @@ function Landing() {
             </div>
           </div>
           <br />
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div className="row row-cols-1 row-cols-md-3 g-4">
             {features.map(function (feature, index) {
               return (
-                <div class="col">
-                  <div class="card mdb-color darken-4 text-white" key={index}>
+                <div className="col">
+                  <div
+                    className="card mdb-color darken-4 text-white"
+                    key={index}
+                  >
                     <div className="view zoom">
                       <img
                         src={feature.img}
-                        class="card-img-top"
+                        className="card-img-top"
                         alt={feature.imgAlt}
                       />
                     </div>
-                    <div class="card-body">
-                      <h5 class="card-title">{feature.name}</h5>
+                    <div className="card-body">
+                      <h5 className="card-title">{feature.name}</h5>
                       <h6 className="small">{feature.desc}</h6>
                       <a
                         rel="noreferrer"
                         target="_blank"
                         href={feature.site}
-                        class="feature-btn btn deep-purple rounded-pill"
+                        className="feature-btn btn deep-purple rounded-pill"
                       >
                         Learn more
                       </a>
@@ -335,35 +347,6 @@ function Landing() {
           </div>
         </div>
       </section>
-
-      {/* FOOTER */}
-
-      <footer class="page-footer font-small unique-color-dark pt-4">
-        <div class="container text-center text-md-left">
-          <div class="row">
-            <div class="col-md-6 mt-md-0 mt-3">
-              <h5 class="text-uppercase font-weight-bold">ABOUT US</h5>
-              <hr
-                class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                style={{ width: "100px" }}
-              ></hr>
-              <p>
-                ooopsDev.com began as a joke, but I realized that this kind of
-                website would be helpful to more than just me. It may be very
-                beneficial to other developers as well. I made this website by
-                combining all of my Chrome bookmarks into a single place, and
-                this is how ooopsDev was built. <i class="fad fa-bug"></i>
-              </p>
-            </div>
-          </div>
-        </div>
-        <br />
-
-        <div class="footer-copyright text-center py-3">
-          © 2021 Copyright
-          <a href="#"> ooopsDev.com</a>
-        </div>
-      </footer>
     </div>
   );
 }

@@ -195,6 +195,15 @@ header .container a {
     box-shadow: none !important;
     transition: all 0.4s;
   }
+
+  .aboutus {
+    padding: 30px !important;
+  }
+
+  .community .container .comInfo a {
+    font-family: var(--mon) !important;
+    width: 150px !important;
+  }
 }
 
 .btn-change8 {
@@ -233,10 +242,81 @@ transition: all 0.4s;
 }
 
 .feature-btn:hover {
-  background: #7e57c2 !important;
+  background: #7d47dc !important;
   color: white !important;
 }
 
 .features .card {
   height: 520px !important;
+}
+
+/* ABOUT STYLINGS */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1562034475-0292da13283a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.masthead .small {
+  font-size: 15px;
+}
+
+/* what section */
+.aboutus {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+/* Community section */
+.community {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.community .container .comInfo h3 {
+  font-family: var(--mon) !important;
+  font-size: 35px !important;
+  margin-bottom: 20px;
+}
+
+.community .container .comInfo p {
+  font-family: var(--mon) !important;
+}
+
+.community .container .comInfo a {
+  font-family: var(--mon) !important;
+  width: 200px;
+}
+
+.community .container .comInfo a:hover {
+  font-family: var(--mon) !important;
+  width: 200px;
+  background: #7d47dc !important;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.founder {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.founder .founderDetails h5 span {
+  font-family: var(--mon) !important;
+}
+.founder .founderDetails h3 {
+  font-family: var(--mon) !important;
+}
+.founder .founderDetails p {
+  font-family: var(--mon) !important;
+}
+
+.founder .commiters h6 span {
+  font-family: var(--mon) !important;
+}
+.founder .commiters h6 {
+  font-family: var(--mon) !important;
 }

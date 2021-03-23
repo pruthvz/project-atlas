@@ -4,6 +4,7 @@ import "./App.css";
 import About from "./components/About";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/project-atlas/" exact component={Landing} />
         <Route path="/project-atlas/about" exact component={About} />
         <Switch></Switch>
+        <Footer />
       </Router>
 
       {/* IN PROGRESS MESSAGE DISPLAY */}
