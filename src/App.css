@@ -209,6 +209,15 @@ header .container a {
     font-family: var(--mon) !important;
     width: 150px !important;
   }
+
+  /* resource responsiveness */
+  .webdev .container {
+    padding: 30px !important;
+  }
+
+  .webdev .container .card {
+    margin-right: 0px !important;
+  }
 }
 
 .btn-change8 {
@@ -332,3 +341,6 @@ transition: all 0.4s;
 .founder .commiters h6 {
   font-family: var(--mon) !important;
 }
+
+/* RESOURCE PAGE */
+/* IN RESOURCE.CSS */

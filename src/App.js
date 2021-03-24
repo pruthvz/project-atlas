@@ -5,6 +5,7 @@ import About from "./components/About";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Resource from "./components/Resource";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Switch>
           <Route path="/project-atlas/" exact component={Landing} />
           <Route path="/project-atlas/about" exact component={About} />
+          <Route path="/project-atlas/bookmark" exact component={Resource} />
         </Switch>
         <Footer />
       </Router>

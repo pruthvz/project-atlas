@@ -49,8 +49,8 @@ function Navbar() {
                 <li className="nav-link">About</li>
               </Link>
 
-              <Link to="/project-atlas/contact" className="nav-item">
-                <li className="nav-link">Contact</li>
+              <Link to="/project-atlas/bookmark" className="nav-item">
+                <li className="nav-link">Bookmark</li>
               </Link>
             </ul>
             <ul className="socials navbar-nav nav-flex-icons">

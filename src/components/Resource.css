@@ -1,0 +1,82 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+
+/* Variables */
+:root {
+  --sans: "Open Sans", sans-serif;
+  --sanspro: "Open Sans", sans-serif;
+  --libre: "Libre Franklin", sans-serif;
+  --mon: "Montserrat", sans-serif;
+  --anon: "Anonymous Pro", monospace;
+  --lightpurple: #bc6ff1;
+  --primaryColor: #892cdc;
+  --secondaryColor: #1f4287;
+  --bgColor: #000000;
+  --purple: #892cdc;
+}
+
+/* RESOURCE CSS HERE */
+.source {
+  height: 5vh !important;
+  min-height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1562034475-0292da13283a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.webdev {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.webdev .container {
+  padding: 15px;
+}
+
+.webdev .container .devInfo span {
+  width: 100px;
+  font-family: var(--mon) !important;
+}
+
+.webdev .container .devInfo h2 {
+  padding: 10px;
+  font-family: var(--mon) !important;
+}
+
+.webdev .container .card {
+  margin-right: 20px;
+}
+
+.webdev .container .card .row img {
+  height: 245px;
+}
+
+.webdev .container .card .card-body h3 {
+  font-family: var(--mon) !important;
+}
+
+.webdev .container .card .card-body h6 {
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+  width: 100px;
+  font-family: var(--anon) !important;
+}
+
+.webdev .container .card .card-body p {
+  font-family: var(--mon) !important;
+}
+
+.webdev .container .card .card-body a {
+  width: 165px;
+}
+
+.webdev .container .card .card-body a:hover {
+  background: #5997c9 !important;
+  color: white !important;
+}
