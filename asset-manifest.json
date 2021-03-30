@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-atlas/static/css/main.e03eeae4.chunk.css",
-    "main.js": "/project-atlas/static/js/main.9e642b9f.chunk.js",
-    "main.js.map": "/project-atlas/static/js/main.9e642b9f.chunk.js.map",
+    "main.css": "/project-atlas/static/css/main.eb250bcc.chunk.css",
+    "main.js": "/project-atlas/static/js/main.a9d0c13a.chunk.js",
+    "main.js.map": "/project-atlas/static/js/main.a9d0c13a.chunk.js.map",
     "runtime-main.js": "/project-atlas/static/js/runtime-main.9c9d21ef.js",
     "runtime-main.js.map": "/project-atlas/static/js/runtime-main.9c9d21ef.js.map",
-    "static/js/2.f6013cb9.chunk.js": "/project-atlas/static/js/2.f6013cb9.chunk.js",
-    "static/js/2.f6013cb9.chunk.js.map": "/project-atlas/static/js/2.f6013cb9.chunk.js.map",
+    "static/js/2.170f61b3.chunk.js": "/project-atlas/static/js/2.170f61b3.chunk.js",
+    "static/js/2.170f61b3.chunk.js.map": "/project-atlas/static/js/2.170f61b3.chunk.js.map",
     "index.html": "/project-atlas/index.html",
-    "static/css/main.e03eeae4.chunk.css.map": "/project-atlas/static/css/main.e03eeae4.chunk.css.map",
-    "static/js/2.f6013cb9.chunk.js.LICENSE.txt": "/project-atlas/static/js/2.f6013cb9.chunk.js.LICENSE.txt",
+    "static/css/main.eb250bcc.chunk.css.map": "/project-atlas/static/css/main.eb250bcc.chunk.css.map",
+    "static/js/2.170f61b3.chunk.js.LICENSE.txt": "/project-atlas/static/js/2.170f61b3.chunk.js.LICENSE.txt",
     "static/media/coding.203864c7.mp4": "/project-atlas/static/media/coding.203864c7.mp4",
     "static/media/design.29700865.png": "/project-atlas/static/media/design.29700865.png",
     "static/media/development.393fb307.png": "/project-atlas/static/media/development.393fb307.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9c9d21ef.js",
-    "static/js/2.f6013cb9.chunk.js",
-    "static/css/main.e03eeae4.chunk.css",
-    "static/js/main.9e642b9f.chunk.js"
+    "static/js/2.170f61b3.chunk.js",
+    "static/css/main.eb250bcc.chunk.css",
+    "static/js/main.a9d0c13a.chunk.js"
   ]
 }
