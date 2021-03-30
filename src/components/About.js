@@ -27,7 +27,7 @@ function About() {
           >
             <div className="row g-0">
               <div className="col-md-6">
-                <img src={Team} alt="..." className="img-fluid p-3 " />
+                <img src={Team} alt="..." className="img-fluid p-1" />
               </div>
               <div className="col-md-6">
                 <div className="card-body">

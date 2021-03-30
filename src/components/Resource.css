@@ -47,13 +47,26 @@
   padding: 10px;
   font-family: var(--mon) !important;
 }
+.webdev .container .devInfo h3 {
+  padding: 10px;
+  font-size: 20px;
+  font-family: var(--mon) !important;
+}
 
 .webdev .container .card {
   margin-right: 20px;
 }
 
 .webdev .container .card .row img {
-  height: 245px;
+  width: 400;
+  height: 270px !important;
+  object-fit: cover;
+}
+
+.webdev .container .bootstrapCard .row img {
+  width: 400px;
+  height: 300px !important;
+  object-fit: cover;
 }
 
 .webdev .container .card .card-body h3 {
@@ -79,4 +92,18 @@
 .webdev .container .card .card-body a:hover {
   background: #5997c9 !important;
   color: white !important;
+}
+
+/* SUB NAV STYLES */
+
+.nav .nav-item {
+  color: white;
+}
+
+.nav .nav-item .nav-link {
+  font-family: var(--mon);
+}
+
+.nav .nav-item:hover {
+  color: lightblue;
 }

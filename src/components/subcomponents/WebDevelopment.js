@@ -1,22 +1,14 @@
 import React from "react";
+import webdev from "./WebDev";
 
-import Nav from "./subcomponents/Nav";
-import WebDevelopment from "./subcomponents/WebDevelopment";
-
-// CSS
-import "./Resource.css";
-
-function Resource() {
+function WebDevelopment() {
   return (
     <div>
-      <Nav />
-      <WebDevelopment />
-
-      {/* <section className="webdev elegant-color-dark text-white">
+      <section className="webdev elegant-color-dark text-white">
         <div className="container">
           <div className="devInfo text-center">
             <span className="badge purple accent-4  pl-3 pr-3 p-2 badge-pill">
-              Resource
+              Resources
             </span>
             <h2>Web Development</h2>
           </div>
@@ -53,11 +45,13 @@ function Resource() {
                 </div>
               );
             })}
+
+            {/* new under */}
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
 
-export default Resource;
+export default WebDevelopment;

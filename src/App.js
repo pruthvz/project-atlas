@@ -7,6 +7,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Resource from "./components/Resource";
 
+// Sub Components
+import Nav from "./components/subcomponents/Nav";
+import WebDev from "./components/subcomponents/WebDevelopment";
+import WebDesign from "./components/subcomponents/WebDesign";
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +21,11 @@ function App() {
           <Route path="/project-atlas/" exact component={Landing} />
           <Route path="/project-atlas/about" exact component={About} />
           <Route path="/project-atlas/bookmark" exact component={Resource} />
+          <Route
+            path="/project-atlas/bookmark/development"
+            component={webDevelopment}
+          />
+          <Route path="/project-atlas/bookmark/design" component={webDesign} />
         </Switch>
         <Footer />
       </Router>
@@ -33,5 +43,23 @@ function App() {
     </div>
   );
 }
+
+const webDevelopment = () => {
+  return (
+    <div>
+      <Nav />
+      <WebDev />
+    </div>
+  );
+};
+
+const webDesign = () => {
+  return (
+    <div>
+      <Nav />
+      <WebDesign />
+    </div>
+  );
+};
 
 export default App;
