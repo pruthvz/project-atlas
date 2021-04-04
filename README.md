@@ -4,3 +4,4 @@ https://preview.redd.it/1ufd2jvosof51.jpg?auto=webp&s=5a527e9748bea60e13a3981234
 
 ↓ Bug Fixes ↓
 Sub Nav for navigating around.
+Move Objects From the landing page into its own separate file.

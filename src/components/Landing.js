@@ -1,5 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "../App.css";
+
+// Components
+import ScrollToTop from "./subcomponents/ScrollToTop";
 
 // importing images
 import DevelopmentImg from "../assets/development.png";
@@ -13,6 +19,10 @@ import NightSky from "../assets/sky.mp4";
 import Hacking from "../assets/hacking.mp4";
 
 function Landing() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   let hashtags = [
     "Web Design",
     "Web Development",
@@ -60,6 +70,7 @@ function Landing() {
 
   return (
     <div>
+      <ScrollToTop />
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -87,7 +98,7 @@ function Landing() {
                     </p>
                     <a
                       className="btn-change8 btn  btn-lg mt-4"
-                      href="#providing"
+                      href="/project-atlas/bookmark/development"
                     >
                       Bookmark me
                     </a>
@@ -117,7 +128,7 @@ function Landing() {
                     </p>
                     <a
                       className="btn-change8 btn  btn-lg mt-4"
-                      href="#providing"
+                      href="/project-atlas/bookmark/design"
                     >
                       Bookmark me
                     </a>
@@ -146,7 +157,7 @@ function Landing() {
                     </p>
                     <a
                       className="btn-change8 btn  btn-lg mt-4"
-                      href="#providing"
+                      href="/project-atlas/bookmark/resources"
                     >
                       Bookmark me
                     </a>
@@ -183,7 +194,11 @@ function Landing() {
       </div>
       {/* Shreysh why u looking here */}
 
-      <section className="what-we-provide pt-5 pb-5 " id="providing">
+      <section
+        className="what-we-provide pt-5 pb-5 "
+        id="providing"
+        data-aos="fade-up"
+      >
         <div className="container text-center">
           <div className="w-100 text-dark provideInfo">
             <h1 className="mt-5 display-4"> One Place</h1>
@@ -254,7 +269,10 @@ function Landing() {
         </div>
       </section>
 
-      <section className="open-src unique-color-dark text-white pt-5 pb-5 p-3">
+      <section
+        className="open-src unique-color-dark text-white pt-5 pb-5 p-3"
+        data-aos="fade-up"
+      >
         <div className="col-md-10 mx-auto">
           <div className="card  rgba-stylish-strong rounded">
             <div className="mask">
@@ -313,7 +331,7 @@ function Landing() {
             </div>
           </div>
           <br />
-          <div className="row row-cols-1 row-cols-md-3 g-4">
+          <div className="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-up">
             {features.map(function (feature, index) {
               return (
                 <div className="col">

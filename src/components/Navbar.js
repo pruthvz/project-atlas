@@ -45,12 +45,12 @@ function Navbar() {
                 <li className="nav-link">Home</li>
               </Link>
 
-              <Link to="/project-atlas/about" className="nav-item">
-                <li className="nav-link">About</li>
+              <Link to="/project-atlas/bookmark" className="nav-item">
+                <li className="nav-link">Assets</li>
               </Link>
 
-              <Link to="/project-atlas/bookmark" className="nav-item">
-                <li className="nav-link">Bookmark</li>
+              <Link to="/project-atlas/about" className="nav-item">
+                <li className="nav-link">About</li>
               </Link>
             </ul>
             <ul className="socials navbar-nav nav-flex-icons">

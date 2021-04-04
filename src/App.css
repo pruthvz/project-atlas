@@ -59,7 +59,7 @@ html {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-  color: var(--primaryColor) !important;
+  color: #7f5af0 !important;
   font-weight: bold;
 }
 .active {
@@ -68,7 +68,7 @@ html {
 }
 
 .bgActive {
-  background: #000000 !important;
+  background: #16161a !important;
 }
 
 /* Social media top navbar */

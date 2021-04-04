@@ -11,6 +11,7 @@ import Resource from "./components/Resource";
 import Nav from "./components/subcomponents/Nav";
 import WebDev from "./components/subcomponents/WebDevelopment";
 import WebDesign from "./components/subcomponents/WebDesign";
+import WebSource from "./components/subcomponents/WebSources";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
             component={webDevelopment}
           />
           <Route path="/project-atlas/bookmark/design" component={webDesign} />
+          <Route
+            path="/project-atlas/bookmark/resources"
+            component={WebSource}
+          />
         </Switch>
         <Footer />
       </Router>

@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Team from "../assets/team.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import ScrollToTop from "./subcomponents/ScrollToTop";
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div>
+      <ScrollToTop />
       <header className="masthead">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
@@ -19,7 +26,7 @@ function About() {
         </div>
       </header>
 
-      <section className="aboutus container">
+      <section className="aboutus container" data-aos="fade-up">
         <div className="row">
           <div
             className="card mx-auto elegant-color-dark text-white mb-3 "
@@ -53,7 +60,10 @@ function About() {
         </div>
       </section>
 
-      <section className="community  elegant-color-dark text-white">
+      <section
+        className="community  elegant-color-dark text-white"
+        data-aos="fade-up"
+      >
         <div className="container">
           <div className="col-md-12">
             <div className="comInfo">

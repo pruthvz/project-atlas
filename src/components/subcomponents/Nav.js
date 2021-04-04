@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <div>
-      <header className="source ">
+      <header className="source">
         <div className="container h-100">
           <div className="row h-100 align-items-center">
             <div className="col-12 text-center text-white">
@@ -16,7 +16,7 @@ function Nav() {
 
       <ul class="nav justify-content-center bg-dark pt-3 pb-3 ">
         <Link to="/project-atlas/bookmark/development" className="nav-item">
-          <li className="nav-link ">Web Development</li>
+          <li className="nav-link">Web Development</li>
         </Link>
         <Link to="/project-atlas/bookmark/design" className="nav-item">
           <li className="nav-link ">Web Design</li>

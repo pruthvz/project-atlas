@@ -1,33 +1,51 @@
 import React, { useEffect } from "react";
-import webdev from "./WebDev";
+import WebSource from "./Source";
+import Nav from "./Nav";
 
-function WebDevelopment() {
+// AOS AND COMPOENNTS
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+function WebSources() {
+  // AOS INIT
   useEffect(() => {
-    document.title = "Web Development Resources | Project Atlas";
+    Aos.init({ duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    document.title = "Web Resources | Project Atlas";
   });
   return (
     <div>
+      <Nav />
       <section className="webdev elegant-color-dark text-white">
         <div className="container">
           <div className="devInfo text-center">
             <span className="badge purple accent-4  pl-3 pr-3 p-2 badge-pill">
               Resources
             </span>
-            <h2>Web Development</h2>
+            <h2>Web Development Resources</h2>
           </div>
         </div>
 
         <div className="container mx-auto">
           <div className="row">
-            {webdev.map(function (item, index) {
+            {WebSource.map(function (item, index) {
               return (
                 <div
                   class="card blue-grey darken-4 mb-3 text-white"
                   style={{ maxWidth: "550px" }}
+                  data-aos="fade-up"
                 >
                   <div class="row ">
                     <div class="col-md-4">
-                      <img src={item.img} alt={item.imgAlt} class="img-fluid" />
+                      <div className="view zoom">
+                        <img
+                          src={item.img}
+                          alt={item.imgAlt}
+                          class="img-fluid"
+                        />
+                      </div>
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
@@ -48,13 +66,22 @@ function WebDevelopment() {
                 </div>
               );
             })}
-
-            {/* new under */}
           </div>
+          <h6 className="alert alert-warning">
+            If you know more free hosting platforms that could be useful for
+            other developers feel free to{" "}
+            <a
+              href="https://github.com/pruthvz/project-atlas"
+              rel="noreferrer"
+              target="_blank"
+            >
+              update this page.
+            </a>
+          </h6>
         </div>
       </section>
     </div>
   );
 }
 
-export default WebDevelopment;
+export default WebSources;

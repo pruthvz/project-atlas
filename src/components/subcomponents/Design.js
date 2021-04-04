@@ -1,22 +1,7 @@
+// NORMAL WEB DESIGN WEBSITES GO HERE
+// ADD A NEW SECION IF NEEDED.
+
 let webdesign = [
-  {
-    name: "Shape.so",
-    desc:
-      "Shape lets you customize the style, colors and border of static & animated icons and illustrations. You can export to React, SVG and Lottie code.",
-    category: "Icons ",
-    link: "https://shape.so/",
-    img: "https://i.ytimg.com/vi/OjcT1XB8uAk/maxresdefault.jpg",
-    imgAlt: "Shape.so image",
-  },
-  {
-    name: "LottieFlow",
-    desc: "Downloadable Lottie files that work like magic on your Webflow site",
-    category: "Animated   Icons",
-    link: "https://lottieflow.finsweet.com/",
-    img:
-      "https://prototypr.gumlet.io/wp-content/uploads/2020/09/Product-Header-_-Prototypr-Toolbox-18-768x576.png?w=732",
-    imgAlt: "LottieFlow image",
-  },
   {
     name: "fontjoy",
     desc:
@@ -31,13 +16,45 @@ let webdesign = [
     name: "CSS Scan",
     desc:
       "Beautiful CSS box-shadow examples. All of these box-shadow were copied using CSS Scan. Quick shadow implmentation!",
-    category: "YouTube",
+    category: "CSS Shadows",
     link: "https://getcssscan.com/css-box-shadow-examples",
     img:
       "https://static-2.gumroad.com/res/gumroad-public-storage/variants/2ym6fa0htlk8vy5r5i6wj5w1qjyb/ac63e430461bd54dc712aba2a190fadd1d2f74548ed86c39d975fbfc25335a98",
     imgAlt: "test image",
   },
+
+  {
+    name: "FontSpark",
+    desc:
+      "Helping designers discover the perfect font for their next design project.",
+    category: "Fonts",
+    link: "https://fontspark.app/",
+    img: "https://www.bookmarks.design/media/image/fontspark.jpg",
+    imgAlt: "Fontspark image",
+  },
+  {
+    name: "fontpair",
+    desc:
+      "FontPair is a typography tool that inspires the creative community to design better.",
+    category: "Fonts",
+    link: "https://www.fontpair.co/all",
+    img:
+      "https://cdn.dribbble.com/users/2374674/screenshots/4884277/fontpair-logo-wordmark.png",
+    imgAlt: "Fontpair  image",
+  },
+  {
+    name: "Google Fonts",
+    desc:
+      "Making the web more beautiful, fast, and open through great typography. You've visited this page many times.",
+    category: "Google Fonts",
+    link: "https://fonts.google.com/",
+    img:
+      "https://pbs.twimg.com/profile_images/1366808543773384704/8qFXRmFc_400x400.png",
+    imgAlt: "Google fonts  image",
+  },
 ];
+
+// ALL BOOTSTRAP THEMES AND TEMPATES GO HERE
 
 let bootstrapTemp = [
   {
@@ -99,4 +116,170 @@ let bootstrapTemp = [
   },
 ];
 
-export default { webdesign, bootstrapTemp };
+// ALL THE ICON AND ILLISTRATION RELATED WEBSITES GO HERE
+
+let iconsTemp = [
+  {
+    name: "Font Awesome",
+    desc:
+      "The world's most popular and easiest to use icon set just got an upgrade. More icons. More styles",
+    category: "Icons",
+    link: "https://fontawesome.com/",
+    img:
+      "https://assets.digitalocean.com/articles/how-to-use-font-awesome-5-with-react/1.png",
+    imgAlt: "Font Awesome image",
+  },
+  {
+    name: "Icons Material Design",
+    desc:
+      "Material icons are delightful, beautifully crafted symbols for common actions and items. Download on desktop to use them in your digital products for Android, iOS, and web.",
+    category: "Icons",
+    link: "https://material.io/resources/icons/?style=baseline",
+    img:
+      "https://lh3.googleusercontent.com/64GWPJbpSJKB2hejLK02GLHjflv2B8cCr7SJUQI7cHXO0Qakc28U-ZRw7IRL3WadD8Stugb1HB4GgpqEkRydsEaR9AC4SqrTeRlCDlo=w1064-v0",
+    imgAlt: "Icons Material Design image",
+  },
+  {
+    name: "Shape.so",
+    desc:
+      "Shape lets you customize the style, colors and border of static & animated icons and illustrations. You can export to React, SVG and Lottie code.",
+    category: "Icons ",
+    link: "https://shape.so/",
+    img: "https://i.ytimg.com/vi/OjcT1XB8uAk/maxresdefault.jpg",
+    imgAlt: "Shape.so image",
+  },
+  {
+    name: "Bootstrap Icons",
+    desc:
+      "Free, high quality, open source icon library with over 1,300 icons. Include them anyway you like—SVGs, SVG sprite, or web fonts. Use them with or without Bootstrap in any project.",
+    category: "Icons",
+    link: "https://icons.getbootstrap.com/",
+    img: "https://icons.getbootstrap.com/assets/img/icons-hero.png",
+    imgAlt: "Bootstrap Icons image",
+  },
+  {
+    name: "LottieFlow",
+    desc: "Downloadable Lottie files that work like magic on your Webflow site",
+    category: "Animated Icons",
+    link: "https://lottieflow.finsweet.com/",
+    img:
+      "https://prototypr.gumlet.io/wp-content/uploads/2020/09/Product-Header-_-Prototypr-Toolbox-18-768x576.png?w=732",
+    imgAlt: "LottieFlow image",
+  },
+  {
+    name: "IconFinder",
+    desc:
+      "Iconfinder is the world's largest marketplace for vector and raster icons in SVG and PNG formats.",
+    category: "Icons",
+    link: "https://www.iconfinder.com/",
+    img:
+      "https://pbs.twimg.com/profile_images/1041986188821848069/spGckKc6.jpg",
+    imgAlt: "IconFinder image",
+  },
+  {
+    name: "Iconmonstr",
+    desc:
+      "iconmonstr uses cookies to ensure you get the best experience on the website. Learn more. OK. You will need to accept the license agreement to get this icon.",
+    category: "Icons",
+    link: "https://iconmonstr.com/",
+    img:
+      "https://i.pinimg.com/originals/c7/6a/05/c76a0586385b3ba88bc11c7e2678c724.jpg",
+    imgAlt: "iconmonstr image",
+  },
+  {
+    name: "Heroicons",
+    desc: "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+    category: "Icons",
+    link: "https://heroicons.com/",
+    img:
+      "https://heroicons.com/_next/static/media/social-card.c623b199d043ddf168d67e9b98a21a24.jpg",
+    imgAlt: "Heroicons image",
+  },
+  {
+    name: "Icons8",
+    desc:
+      "Download design elements for free: icons, photos, vector illustrations, and music for your videos. All the assets made by designers → consistent quality.",
+    category: "Icons",
+    link: "https://icons8.com/",
+    img:
+      "https://pbs.twimg.com/profile_images/1344223782525952000/LGWIr35j.jpg",
+    imgAlt: "icons8 image",
+  },
+  {
+    name: "flaticon",
+    desc:
+      "4296500+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT. Thousands of free icons in the largest database of free vector icons!",
+    category: "Icons",
+    link: "https://www.flaticon.com/",
+    img: "https://media.flaticon.com/share/flaticon-generic.jpg",
+    imgAlt: "flaticon image",
+  },
+];
+
+let colourTemp = [
+  {
+    name: "Adobe Color",
+    desc:
+      "Create color palettes with the color wheel or image, browse thousands of color combinations from the Adobe Color community.",
+    category: "Color Palette",
+    link: "https://color.adobe.com/create/color-wheel",
+    img:
+      "https://www.videomaker.com/wp-content/uploads/2020/09/Adobe-Color-Wheel.gif",
+    imgAlt: "Adobe Color image",
+  },
+  {
+    name: "Coolors",
+    desc: "Generate or browse beautiful color combinations for your designs.",
+    category: "Color Palette",
+    link: "https://coolors.co/",
+    img:
+      "https://res.cloudinary.com/coolors/image/upload/v1575544084/zendesk/generator_screen.png",
+    imgAlt: "coolors image",
+  },
+  {
+    name: "Color Hunt",
+    desc:
+      "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
+    category: "Color Palette",
+    link: "https://colorhunt.co/",
+    img: "https://colorhunt.co/img/color-hunt-palettes-og.png",
+    imgAlt: "Color Hunt image",
+  },
+  {
+    name: "Gradient Magic",
+    desc: "A Free Gallery of Fantastic and Unique CSS Gradients.",
+    category: "Color Palette",
+    link: "https://www.gradientmagic.com/",
+    img: "https://www.gradientmagic.com/img/GM_Social.png",
+    imgAlt: "Gradient Magic image",
+  },
+  {
+    name: "PatternPad",
+    desc:
+      "PatternPad offers unlimited unique pattern designs that fit your style. Ideal for branding, presentations, social media posts or customising products.",
+    category: "Color Palette",
+    link: "https://patternpad.com/",
+    img:
+      "https://ph-files.imgix.net/7634b2da-db4a-4e27-a6d4-768674585227.png?auto=format&auto=compress&codec=mozjpeg&cs=strip",
+    imgAlt: "PatternPad image",
+  },
+  {
+    name: "Happy Hues",
+    desc:
+      "Happy Hues is a color palette inspiration site that acts as a real world example as to how the colors could be used in your design projects.",
+    category: "Colour Palette",
+    link: "https://www.happyhues.co/",
+    img:
+      "https://ph-files.imgix.net/f7e1dd94-a807-44ba-adb0-8482164a0a0b?auto=format&auto=compress&codec=mozjpeg&cs=strip",
+    imgAlt: "Happy Hues image",
+  },
+];
+
+const designExpo = {
+  webdesign,
+  bootstrapTemp,
+  iconsTemp,
+  colourTemp,
+};
+
+export default designExpo;
