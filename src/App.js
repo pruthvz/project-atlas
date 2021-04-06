@@ -23,11 +23,17 @@ function App() {
           <Route path="/project-atlas/about" exact component={About} />
           <Route path="/project-atlas/bookmark" exact component={Resource} />
           <Route
+            exact
             path="/project-atlas/bookmark/development"
             component={webDevelopment}
           />
-          <Route path="/project-atlas/bookmark/design" component={webDesign} />
           <Route
+            exact
+            path="/project-atlas/bookmark/design"
+            component={webDesign}
+          />
+          <Route
+            exact
             path="/project-atlas/bookmark/resources"
             component={WebSource}
           />

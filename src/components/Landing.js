@@ -97,7 +97,7 @@ function Landing() {
                       Useful and bookmark worthy websites!
                     </p>
                     <a
-                      className="btn-change8 btn  btn-lg mt-4"
+                      className="btn-change8 btn btn-lg mt-4"
                       href="/project-atlas/bookmark/development"
                     >
                       Bookmark me

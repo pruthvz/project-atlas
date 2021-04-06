@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import sourceVid from "../assets/resource.mp4";
 
 // CSS
@@ -10,25 +11,25 @@ function Resource() {
       name: "Web Development",
       desc:
         "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
-      link: "/project-atlas/bookmark/development",
+      link: "./development",
     },
     {
       name: "Web Design",
       desc:
         "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
-      link: "/project-atlas/bookmark/design",
+      link: "./design",
     },
     {
       name: "Resources",
       desc:
-        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
-      link: "/project-atlas/bookmark/resources",
+        "lorem lorem lorem loremlorem lorem lorem loremlorem lor  em lorem loremlorem lorem lorem lorem",
+      link: "./resources",
     },
     {
       name: "API",
       desc:
         "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
-      link: "/project-atlas/bookmark/api",
+      link: "./api",
     },
   ];
   return (
@@ -59,19 +60,18 @@ function Resource() {
             {redirectLinks.map(function (source, index) {
               return (
                 <div
-                  class="card blue-grey darken-4 text-white mb-3"
+                  className="card blue-grey darken-4 text-white mb-3"
                   style={{ maxWidth: "530px" }}
                 >
-                  <div class="card-body">
-                    <h2 class="card-title">{source.name}</h2>
-                    <p class="small grey-text">{source.desc}</p>
-                    <a
-                      ahref
-                      href={source.link}
-                      class="btn purple darken-1 rounded-pill"
+                  <div className="card-body">
+                    <h2 className="card-title">{source.name}</h2>
+                    <p className="small grey-text">{source.desc}</p>
+                    <Link
+                      to={source.link}
+                      className="nav-item btn purple darken-1 rounded-pill"
                     >
-                      Resources
-                    </a>
+                      <li className="nav-link p-0 ">Resource</li>
+                    </Link>
                   </div>
                 </div>
               );
