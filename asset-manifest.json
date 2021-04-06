@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/project-atlas/static/css/main.97bdeea4.chunk.css",
-    "main.js": "/project-atlas/static/js/main.d1030124.chunk.js",
-    "main.js.map": "/project-atlas/static/js/main.d1030124.chunk.js.map",
+    "main.js": "/project-atlas/static/js/main.69f6587f.chunk.js",
+    "main.js.map": "/project-atlas/static/js/main.69f6587f.chunk.js.map",
     "runtime-main.js": "/project-atlas/static/js/runtime-main.9c9d21ef.js",
     "runtime-main.js.map": "/project-atlas/static/js/runtime-main.9c9d21ef.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/project-atlas/static/css/2.7fc9bc2b.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.912bf632.chunk.js",
     "static/css/main.97bdeea4.chunk.css",
-    "static/js/main.d1030124.chunk.js"
+    "static/js/main.69f6587f.chunk.js"
   ]
 }
