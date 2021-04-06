@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/project-atlas/static/css/main.de667ed3.chunk.css",
-    "main.js": "/project-atlas/static/js/main.0701acbb.chunk.js",
-    "main.js.map": "/project-atlas/static/js/main.0701acbb.chunk.js.map",
+    "main.css": "/project-atlas/static/css/main.97bdeea4.chunk.css",
+    "main.js": "/project-atlas/static/js/main.d1030124.chunk.js",
+    "main.js.map": "/project-atlas/static/js/main.d1030124.chunk.js.map",
     "runtime-main.js": "/project-atlas/static/js/runtime-main.9c9d21ef.js",
     "runtime-main.js.map": "/project-atlas/static/js/runtime-main.9c9d21ef.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/project-atlas/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.339247e8.chunk.js": "/project-atlas/static/js/2.339247e8.chunk.js",
-    "static/js/2.339247e8.chunk.js.map": "/project-atlas/static/js/2.339247e8.chunk.js.map",
+    "static/js/2.912bf632.chunk.js": "/project-atlas/static/js/2.912bf632.chunk.js",
+    "static/js/2.912bf632.chunk.js.map": "/project-atlas/static/js/2.912bf632.chunk.js.map",
     "index.html": "/project-atlas/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/project-atlas/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.de667ed3.chunk.css.map": "/project-atlas/static/css/main.de667ed3.chunk.css.map",
-    "static/js/2.339247e8.chunk.js.LICENSE.txt": "/project-atlas/static/js/2.339247e8.chunk.js.LICENSE.txt",
+    "static/css/main.97bdeea4.chunk.css.map": "/project-atlas/static/css/main.97bdeea4.chunk.css.map",
+    "static/js/2.912bf632.chunk.js.LICENSE.txt": "/project-atlas/static/js/2.912bf632.chunk.js.LICENSE.txt",
     "static/media/coding.203864c7.mp4": "/project-atlas/static/media/coding.203864c7.mp4",
     "static/media/design.29700865.png": "/project-atlas/static/media/design.29700865.png",
     "static/media/development.393fb307.png": "/project-atlas/static/media/development.393fb307.png",
     "static/media/hacking.e20a2e2d.mp4": "/project-atlas/static/media/hacking.e20a2e2d.mp4",
+    "static/media/resource.22acab75.mp4": "/project-atlas/static/media/resource.22acab75.mp4",
     "static/media/sky.1be58c3a.mp4": "/project-atlas/static/media/sky.1be58c3a.mp4",
     "static/media/source.10e2a420.png": "/project-atlas/static/media/source.10e2a420.png",
     "static/media/team.4680c445.png": "/project-atlas/static/media/team.4680c445.png"
@@ -23,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.9c9d21ef.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.339247e8.chunk.js",
-    "static/css/main.de667ed3.chunk.css",
-    "static/js/main.0701acbb.chunk.js"
+    "static/js/2.912bf632.chunk.js",
+    "static/css/main.97bdeea4.chunk.css",
+    "static/js/main.d1030124.chunk.js"
   ]
 }
