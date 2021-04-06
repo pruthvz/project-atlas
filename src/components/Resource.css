@@ -21,12 +21,8 @@
 
 /* RESOURCE CSS HERE */
 .source {
-  height: 100vh !important;
-  min-height: 500px;
-  background-image: url("https://images.unsplash.com/photo-1547954575-855750c57bd3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 5vh !important;
+  min-height: 10vh;
 }
 
 .webdev {
@@ -98,6 +94,8 @@
 /* SUB NAV STYLES */
 .nav {
   background: #16161a !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 .nav .nav-item {
@@ -119,4 +117,67 @@
   background-color: gold !important;
   color: Black !important;
   font-weight: bold !important;
+}
+.nav .colour-change {
+  animation: colorchange 10s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    color: blue;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: pink;
+  }
+}
+@media (max-width: 575.98px) {
+  .nav .nav-item {
+    color: #fffffe;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .nav {
+    background: #16161a !important;
+  }
+}
+
+/* Styles required only for the example above */
+.assets {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.assets .container .card a {
+  background: #7f5af0 !important;
+}
+
+.assets .container .card {
+  margin-right: 10px;
+  margin-left: 10px;
 }

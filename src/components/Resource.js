@@ -1,61 +1,84 @@
 import React from "react";
-
-import Nav from "./subcomponents/Nav";
-import WebDevelopment from "./subcomponents/WebDevelopment";
+import sourceVid from "../assets/resource.mp4";
 
 // CSS
 import "./Resource.css";
 
 function Resource() {
+  const redirectLinks = [
+    {
+      name: "Web Development",
+      desc:
+        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+      link: "/project-atlas/bookmark/development",
+    },
+    {
+      name: "Web Design",
+      desc:
+        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+      link: "/project-atlas/bookmark/design",
+    },
+    {
+      name: "Resources",
+      desc:
+        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+      link: "/project-atlas/bookmark/resources",
+    },
+    {
+      name: "API",
+      desc:
+        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+      link: "/project-atlas/bookmark/api",
+    },
+  ];
   return (
     <div>
-      <Nav />
-      <WebDevelopment />
-
-      {/* <section className="webdev elegant-color-dark text-white">
-        <div className="container">
-          <div className="devInfo text-center">
-            <span className="badge purple accent-4  pl-3 pr-3 p-2 badge-pill">
-              Resource
-            </span>
-            <h2>Web Development</h2>
+      <header className="resource">
+        <div className="overlay"></div>
+        <video
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+        >
+          <source src={sourceVid} type="video/mp4" />
+        </video>
+        <div className="container h-100">
+          <div className="d-flex h-100 text-center align-items-center">
+            <div className="w-100 text-white">
+              <h1 className="display-1">Resources</h1>
+              <h6>useful resources for everyone!</h6>
+            </div>
           </div>
         </div>
+      </header>
 
+      <section className="assets grey darken-4">
         <div className="container mx-auto">
-          <div className="row">
-            {webdev.map(function (item, index) {
+          <div className="row p-3">
+            {redirectLinks.map(function (source, index) {
               return (
                 <div
-                  class="card blue-grey darken-4 mb-3 text-white"
-                  style={{ maxWidth: "550px" }}
+                  class="card blue-grey darken-4 text-white mb-3"
+                  style={{ maxWidth: "530px" }}
                 >
-                  <div class="row ">
-                    <div class="col-md-4">
-                      <img src={item.img} alt={item.imgAlt} class="img-fluid" />
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h3>{item.name}</h3>
-                        <h6 className="badge blue-grey darken-2 badge-pill p-1">
-                          {item.category}
-                        </h6>
-                        <p class="small">{item.desc}</p>
-                        <a
-                          className="btn unique-color rounded-pill"
-                          href={item.link}
-                        >
-                          Visit
-                        </a>
-                      </div>
-                    </div>
+                  <div class="card-body">
+                    <h2 class="card-title">{source.name}</h2>
+                    <p class="small grey-text">{source.desc}</p>
+                    <a
+                      ahref
+                      href={source.link}
+                      class="btn purple darken-1 rounded-pill"
+                    >
+                      Resources
+                    </a>
                   </div>
                 </div>
               );
             })}
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }

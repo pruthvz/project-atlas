@@ -1,35 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 function Nav() {
   return (
     <div>
-      <header className="source">
-        <div className="container h-100">
-          <div className="row h-100 align-items-center">
-            <div className="col-12 text-center text-white">
-              <h1 className="display-4">Web Resources</h1>
-            </div>
-          </div>
-        </div>
-      </header>
+      <ScrollToTop />
+      <header className="source"></header>
+      <nav className="fixed-top">
+        <ul class="nav justify-content-center bg-dark pt-3 pb-3">
+          <Link to="/project-atlas/" className="">
+            <li className="nav-link ">
+              <i className="colour-change fad fa-bug"></i>
+            </li>
+          </Link>
+          <Link to="/project-atlas/bookmark/development" className="nav-item">
+            <li className="nav-link">Web Development</li>
+          </Link>
+          <Link to="/project-atlas/bookmark/design" className="nav-item">
+            <li className="nav-link ">Web Design</li>
+          </Link>
 
-      <ul class="nav justify-content-center bg-dark pt-3 pb-3 ">
-        <Link to="/project-atlas/bookmark/development" className="nav-item">
-          <li className="nav-link">Web Development</li>
-        </Link>
-        <Link to="/project-atlas/bookmark/design" className="nav-item">
-          <li className="nav-link ">Web Design</li>
-        </Link>
+          <Link to="/project-atlas/bookmark/resources" className="nav-item">
+            <li className="nav-link ">Resources</li>
+          </Link>
 
-        <Link to="/project-atlas/bookmark/resources" className="nav-item">
-          <li className="nav-link ">Resources</li>
-        </Link>
-
-        <Link to="/project-atlas/bookmark/api" className="nav-item">
-          <li className="nav-link  disabled">API</li>
-        </Link>
-      </ul>
+          <Link to="/project-atlas/bookmark/api" className="nav-item">
+            <li className="nav-link  disabled">API</li>
+          </Link>
+        </ul>
+      </nav>
     </div>
   );
 }

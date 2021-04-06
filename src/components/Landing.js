@@ -319,7 +319,7 @@ function Landing() {
         </div>
       </section>
 
-      <section className="features  grey lighten-4">
+      <section className="features grey lighten-4">
         <div className="container">
           <div className="col-md-12">
             <div className="featuresInfo text-center pb-4">

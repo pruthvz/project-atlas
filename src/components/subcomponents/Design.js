@@ -273,6 +273,15 @@ let colourTemp = [
       "https://ph-files.imgix.net/f7e1dd94-a807-44ba-adb0-8482164a0a0b?auto=format&auto=compress&codec=mozjpeg&cs=strip",
     imgAlt: "Happy Hues image",
   },
+  {
+    name: "Material Design Bootstrap Colours",
+    desc:
+      "MDB is supported by an extensive Material Design color system that themes our styles and components.",
+    category: "Colour Palette",
+    link: "https://mdbootstrap.com/legacy/4.3.2/?page=css/colors",
+    img: "https://mdbcdn.b-cdn.net/wp-content/uploads/2018/01/colors-fb.jpg",
+    imgAlt: "MDB Colours image",
+  },
 ];
 
 const designExpo = {

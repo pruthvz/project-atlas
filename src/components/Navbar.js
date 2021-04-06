@@ -48,7 +48,6 @@ function Navbar() {
               <Link to="/project-atlas/bookmark" className="nav-item">
                 <li className="nav-link">Assets</li>
               </Link>
-
               <Link to="/project-atlas/about" className="nav-item">
                 <li className="nav-link">About</li>
               </Link>

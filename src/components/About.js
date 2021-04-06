@@ -88,7 +88,7 @@ function About() {
         </div>
       </section>
 
-      <section className="founder">
+      {/* <section className="founder">
         <div className="container">
           <div className="col-md-12">
             <div className="founderDetails">
@@ -116,7 +116,7 @@ function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
