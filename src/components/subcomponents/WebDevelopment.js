@@ -27,7 +27,13 @@ function WebDevelopment() {
                 >
                   <div class="row ">
                     <div class="col-md-4">
-                      <img src={item.img} alt={item.imgAlt} class="img-fluid" />
+                      <div className="view zoom">
+                        <img
+                          src={item.img}
+                          alt={item.imgAlt}
+                          class="img-fluid"
+                        />
+                      </div>
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
@@ -38,6 +44,8 @@ function WebDevelopment() {
                         <p class="small">{item.desc}</p>
                         <a
                           className="btn unique-color rounded-pill"
+                          rel="noreferrer"
+                          target="_blank"
                           href={item.link}
                         >
                           Visit

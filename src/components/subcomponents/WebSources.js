@@ -31,7 +31,7 @@ function WebSources() {
 
         <div className="container mx-auto">
           <div className="row">
-            {WebSource.map(function (item, index) {
+            {WebSource.hostingSites.map(function (item, index) {
               return (
                 <div
                   class="card blue-grey darken-4 mb-3 text-white"
@@ -57,6 +57,104 @@ function WebSources() {
                         <p class="small">{item.desc}</p>
                         <a
                           className="btn unique-color rounded-pill"
+                          rel="noreferrer"
+                          target="_blank"
+                          href={item.link}
+                        >
+                          Visit
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+
+            <div className="container" data-aos="fade-up">
+              <div className="devInfo text-center pt-5">
+                <span className="badge purple accent-4 pl-3 pr-3 p-2 badge-pill">
+                  Snippets
+                </span>
+                <h3>Code Snippets</h3>
+              </div>
+            </div>
+
+            {WebSource.codeSnippets.map(function (item, index) {
+              return (
+                <div
+                  class="card blue-grey darken-4 mb-3 text-white"
+                  style={{ maxWidth: "550px" }}
+                  data-aos="fade-up"
+                >
+                  <div class="row ">
+                    <div class="col-md-4">
+                      <div className="view zoom">
+                        <img
+                          src={item.img}
+                          alt={item.imgAlt}
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h3>{item.name}</h3>
+                        <h6 className="badge blue-grey darken-2 badge-pill p-1">
+                          {item.category}
+                        </h6>
+                        <p class="small">{item.desc}</p>
+                        <a
+                          className="btn unique-color rounded-pill"
+                          rel="noreferrer"
+                          target="_blank"
+                          href={item.link}
+                        >
+                          Visit
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+
+            <div className="container" data-aos="fade-up">
+              <div className="devInfo text-center pt-5">
+                <span className="badge purple accent-4 pl-3 pr-3 p-2 badge-pill">
+                  Preparation
+                </span>
+                <h3>Interview Preparation</h3>
+              </div>
+            </div>
+
+            {WebSource.interviewSites.map(function (item, index) {
+              return (
+                <div
+                  class="card blue-grey darken-4 mb-3 text-white"
+                  style={{ maxWidth: "550px" }}
+                  data-aos="fade-up"
+                >
+                  <div class="row ">
+                    <div class="col-md-4">
+                      <div className="view zoom">
+                        <img
+                          src={item.img}
+                          alt={item.imgAlt}
+                          class="img-fluid"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h3>{item.name}</h3>
+                        <h6 className="badge blue-grey darken-2 badge-pill p-1">
+                          {item.category}
+                        </h6>
+                        <p class="small">{item.desc}</p>
+                        <a
+                          className="btn unique-color rounded-pill"
+                          rel="noreferrer"
+                          target="_blank"
                           href={item.link}
                         >
                           Visit

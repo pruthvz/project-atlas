@@ -10,25 +10,25 @@ function Resource() {
     {
       name: "Web Development",
       desc:
-        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+        "Start learning Web Development today, by understanding the basic of HTML and CSS, there are many websites to assit and support you with. ",
       link: "./development",
     },
     {
       name: "Web Design",
       desc:
-        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+        "If your into a more design side of Web Development, start today by using Figma and start creating your website designs, using all the fonts, colour palette and more.",
       link: "./design",
     },
     {
       name: "Resources",
       desc:
-        "lorem lorem lorem loremlorem lorem lorem loremlorem lor  em lorem loremlorem lorem lorem lorem",
+        "We also have other useful resources that we think would be useful for developers, such as free hosting websites for your projects.",
       link: "./resources",
     },
     {
       name: "API",
       desc:
-        "lorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem loremlorem lorem lorem lorem",
+        "We have also listed all the free fun API's you can use in your project to experiement or have it used in your main project.",
       link: "./api",
     },
   ];
