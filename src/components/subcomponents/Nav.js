@@ -26,7 +26,7 @@ function Nav() {
           </Link>
 
           <Link to="/project-atlas/bookmark/api" className="nav-item">
-            <li className="nav-link  disabled">API</li>
+            <li className="nav-link ">API</li>
           </Link>
         </ul>
       </nav>

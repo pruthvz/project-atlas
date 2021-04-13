@@ -12,6 +12,7 @@ import Nav from "./components/subcomponents/Nav";
 import WebDev from "./components/subcomponents/WebDevelopment";
 import WebDesign from "./components/subcomponents/WebDesign";
 import WebSource from "./components/subcomponents/WebSources";
+import ApiPage from "./components/subcomponents/ApiPage";
 
 function App() {
   return (
@@ -37,20 +38,10 @@ function App() {
             path="/project-atlas/bookmark/resources"
             component={WebSource}
           />
+          <Route exact path="/project-atlas/bookmark/api" component={apiPage} />
         </Switch>
         <Footer />
       </Router>
-
-      {/* IN PROGRESS MESSAGE DISPLAY */}
-      <marquee
-        behavior="scroll"
-        direction="left"
-        className="deep-purple darken-1 text-white"
-      >
-        <i className="fad fa-user-ninja"></i> Website is still under
-        construction, project atlas is in progress. Visit me later ♥
-      </marquee>
-      {/* IN PROGRESS MESSAGE DISPLAY [DELETE LATER] */}
     </div>
   );
 }
@@ -69,6 +60,15 @@ const webDesign = () => {
     <div>
       <Nav />
       <WebDesign />
+    </div>
+  );
+};
+
+const apiPage = () => {
+  return (
+    <div>
+      <Nav />
+      <ApiPage />
     </div>
   );
 };

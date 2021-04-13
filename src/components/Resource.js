@@ -65,10 +65,10 @@ function Resource() {
                 >
                   <div className="card-body">
                     <h2 className="card-title">{source.name}</h2>
-                    <p className="small grey-text">{source.desc}</p>
+                    <p className="descText h6">{source.desc}</p>
                     <Link
                       to={source.link}
-                      className="nav-item btn purple darken-1 rounded-pill"
+                      className="nav-item btn purple darken-1 rounded-pill sourceBtn"
                     >
                       <li className="nav-link p-0 ">Resource</li>
                     </Link>

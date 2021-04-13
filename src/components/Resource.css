@@ -101,6 +101,7 @@
 .nav .nav-item {
   color: #fffffe;
   font-weight: 600;
+  padding: 0.2rem 0.5rem !important;
 }
 
 .nav .nav-item .nav-link {
@@ -109,7 +110,7 @@
 
 .nav .nav-item:hover {
   color: #fffffe;
-  border-radius: 20px;
+  border-radius: 50px;
   background: #7f5af0;
 }
 
@@ -180,4 +181,12 @@
 .assets .container .card {
   margin-right: 10px;
   margin-left: 10px;
+}
+.assets .container .card .descText {
+  color: rgb(199, 199, 199) !important;
+}
+
+.assets .container .card .sourceBtn:hover {
+  background: #663de0 !important;
+  color: white !important;
 }

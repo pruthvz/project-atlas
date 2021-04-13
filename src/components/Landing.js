@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -96,12 +97,9 @@ function Landing() {
                     <p className="lead mb-0 ">
                       Useful and bookmark worthy websites!
                     </p>
-                    <a
-                      className="btn-change8 btn btn-lg mt-4"
-                      href="/project-atlas/bookmark/development"
-                    >
-                      Bookmark me
-                    </a>
+                    <Link to="/project-atlas/bookmark/development">
+                      <p className="btn-change8 btn btn-lg mt-4">Bookmark</p>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -126,12 +124,9 @@ function Landing() {
                       Amazing websites that will help you get started with
                       fonts, icons, colour palettes and more.
                     </p>
-                    <a
-                      className="btn-change8 btn  btn-lg mt-4"
-                      href="/project-atlas/bookmark/design"
-                    >
-                      Bookmark me
-                    </a>
+                    <Link to="/project-atlas/bookmark/design">
+                      <p className="btn-change8 btn btn-lg mt-4">Bookmark</p>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -153,14 +148,12 @@ function Landing() {
                   <div className="w-100 text-white">
                     <h1 className="display-1">Developer Resources</h1>
                     <p className="lead mb-0 ">
-                      Many more websites for all developers!
+                      A list of useful websites, to help you get started with
+                      your project as soon as possible!
                     </p>
-                    <a
-                      className="btn-change8 btn  btn-lg mt-4"
-                      href="/project-atlas/bookmark/resources"
-                    >
-                      Bookmark me
-                    </a>
+                    <Link to="/project-atlas/bookmark/resources">
+                      <p className="btn-change8 btn btn-lg mt-4">Bookmark</p>
+                    </Link>
                   </div>
                 </div>
               </div>

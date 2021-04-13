@@ -37,6 +37,16 @@ let webdev = [
     img: "https://carbon.now.sh/static/brand/banner.png",
     imgAlt: "Carbon image",
   },
+  {
+    name: "Three.js",
+    desc:
+      "Three.js is a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL.",
+    category: "Easy Resource",
+    link: "https://threejs.org/",
+    img:
+      "https://www.intexsoft.com/images/intexsoft/blog/three-js/three-banner.jpg",
+    imgAlt: "Three.js image",
+  },
 ];
 
 export default webdev;
