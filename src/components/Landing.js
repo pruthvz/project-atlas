@@ -37,7 +37,6 @@ function Landing() {
     "Icons",
     "Bootstrap",
     "Material Design Bootstrap",
-    "Shreyesh",
   ];
 
   let features = [
@@ -196,7 +195,7 @@ function Landing() {
           <div className="w-100 text-dark provideInfo">
             <h1 className="mt-5 display-4"> One Place</h1>
             <p>
-              <i className="fad fa-angle-double-down purple-text "></i>
+              <i className="fad fa-angle-double-down purple-text"></i>{" "}
               Collaborative list of resources for developers in one place!
             </p>
           </div>
@@ -214,9 +213,9 @@ function Landing() {
                   <div className="card-body">
                     <h5 className="card-title">Web Development</h5>
                     <p className="card-text">
-                      This is a longer card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      Start learning Web Development today, by understanding the
+                      basic of HTML and CSS, there are many websites to assit
+                      and support you with.
                     </p>
                   </div>
                 </div>
@@ -232,9 +231,9 @@ function Landing() {
                   <div className="card-body">
                     <h5 className="card-title">Web Design</h5>
                     <p className="card-text">
-                      This is a longer card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      If your into a more design side of Web Development, start
+                      today by using Figma and start creating your website
+                      designs, using all the fonts, colour palette and more.
                     </p>
                   </div>
                 </div>
@@ -250,9 +249,9 @@ function Landing() {
                   <div className="card-body">
                     <h5 className="card-title">Awesome API's</h5>
                     <p className="card-text">
-                      This is a longer card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      We have also listed all the free fun API's you can use in
+                      your project to experiement or have it used in your main
+                      project. We also have many other resources too.
                     </p>
                   </div>
                 </div>

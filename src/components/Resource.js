@@ -54,7 +54,7 @@ function Resource() {
         </div>
       </header>
 
-      <section className="assets grey darken-4">
+      <section className="assets elegant-color-dark">
         <div className="container mx-auto">
           <div className="row p-3">
             {redirectLinks.map(function (source, index) {

@@ -173,6 +173,7 @@
 .assets {
   padding-top: 50px;
   padding-bottom: 50px;
+  background: #16161a !important;
 }
 .assets .container .card a {
   background: #7f5af0 !important;
