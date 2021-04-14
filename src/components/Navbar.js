@@ -25,7 +25,7 @@ function Navbar() {
         }
       >
         <div className="container-fluid">
-          <a className="navbar-brand " href="#/project-atlas/">
+          <a className="navbar-brand " href="/">
             <i className="fad fa-bug red-text"></i> oopsDev
           </a>
           <button
@@ -41,14 +41,14 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto pr-2">
-              <Link to="/project-atlas/" className="nav-item">
+              <Link to="/" className="nav-item">
                 <li className="nav-link">Home</li>
               </Link>
 
-              <Link to="/project-atlas/bookmark/" className="nav-item">
+              <Link to="/bookmark/" className="nav-item">
                 <li className="nav-link">Resources</li>
               </Link>
-              <Link to="/project-atlas/about" className="nav-item">
+              <Link to="/about" className="nav-item">
                 <li className="nav-link">About</li>
               </Link>
             </ul>

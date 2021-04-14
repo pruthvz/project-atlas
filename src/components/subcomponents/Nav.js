@@ -9,23 +9,23 @@ function Nav() {
       <header className="source"></header>
       <nav className="fixed-top">
         <ul class="nav justify-content-center bg-dark pt-3 pb-3">
-          <Link to="/project-atlas/" className="">
+          <Link to="/" className="">
             <li className="nav-link ">
               <i className="colour-change fad fa-bug"></i>
             </li>
           </Link>
-          <Link to="/project-atlas/bookmark/development" className="nav-item">
+          <Link to="/bookmark/development" className="nav-item">
             <li className="nav-link">Web Development</li>
           </Link>
-          <Link to="/project-atlas/bookmark/design" className="nav-item">
+          <Link to="/bookmark/design" className="nav-item">
             <li className="nav-link ">Web Design</li>
           </Link>
 
-          <Link to="/project-atlas/bookmark/resources" className="nav-item">
+          <Link to="/bookmark/resources" className="nav-item">
             <li className="nav-link ">Resources</li>
           </Link>
 
-          <Link to="/project-atlas/bookmark/api" className="nav-item">
+          <Link to="/bookmark/api" className="nav-item">
             <li className="nav-link ">API</li>
           </Link>
         </ul>

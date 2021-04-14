@@ -23,24 +23,16 @@ function App() {
         <Switch>
           <Route path="/" exact component={Landing} />
           <Route path="/project-atlas/" exact component={Landing} />
-          <Route path="/project-atlas/about" exact component={About} />
-          <Route path="/project-atlas/bookmark" exact component={Resource} />
+          <Route path="/about" exact component={About} />
+          <Route path="/bookmark" exact component={Resource} />
           <Route
             exact
-            path="/project-atlas/bookmark/development"
+            path="/bookmark/development"
             component={webDevelopment}
           />
-          <Route
-            exact
-            path="/project-atlas/bookmark/design"
-            component={webDesign}
-          />
-          <Route
-            exact
-            path="/project-atlas/bookmark/resources"
-            component={WebSource}
-          />
-          <Route exact path="/project-atlas/bookmark/api" component={apiPage} />
+          <Route exact path="/bookmark/design" component={webDesign} />
+          <Route exact path="/bookmark/resources" component={WebSource} />
+          <Route exact path="/bookmark/api" component={apiPage} />
         </Switch>
         <Footer />
       </Router>
