@@ -2,8 +2,14 @@ https://preview.redd.it/1ufd2jvosof51.jpg?auto=webp&s=5a527e9748bea60e13a3981234
 
 ♠ project atlas still in progress, visit this repository later.
 
+↓ Features to be added or improved ↓
+
+- Move Objects From the landing page into its own separate file,
+- Add More Web Resources,
+- Working with Netlify,
+- Randomize the features section
+- Domain name purchasing time?
+
 ↓ Bug Fixes ↓
-Move Objects From the landing page into its own separate file,
-API Section Needs Finishing,
-Add More Web Resources,
-Working with Netlify
+
+- Improve and maintain code
