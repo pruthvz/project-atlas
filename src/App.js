@@ -21,6 +21,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route path="/" exact component={Landing} />
           <Route path="/project-atlas/" exact component={Landing} />
           <Route path="/project-atlas/about" exact component={About} />
           <Route path="/project-atlas/bookmark" exact component={Resource} />
