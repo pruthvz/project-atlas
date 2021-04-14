@@ -41,7 +41,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto pr-2">
-              <Link to="#/" className="nav-item">
+              <Link to="/" className="nav-item">
                 <li className="nav-link">Home</li>
               </Link>
 
