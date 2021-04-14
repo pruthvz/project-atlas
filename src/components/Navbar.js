@@ -25,7 +25,7 @@ function Navbar() {
         }
       >
         <div className="container-fluid">
-          <a className="navbar-brand " href="/">
+          <a className="navbar-brand " href="#/">
             <i className="fad fa-bug red-text"></i> oopsDev
           </a>
           <button
@@ -41,7 +41,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto pr-2">
-              <Link to="/" className="nav-item">
+              <Link to="#/" className="nav-item">
                 <li className="nav-link">Home</li>
               </Link>
 

@@ -22,7 +22,6 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Landing} />
-          <Route path="/project-atlas/" exact component={Landing} />
           <Route path="/about" exact component={About} />
           <Route path="/bookmark" exact component={Resource} />
           <Route
