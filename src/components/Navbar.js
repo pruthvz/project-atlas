@@ -25,7 +25,7 @@ function Navbar() {
         }
       >
         <div className="container-fluid">
-          <a className="navbar-brand " href="/project-atlas/">
+          <a className="navbar-brand " href="#/project-atlas/">
             <i className="fad fa-bug red-text"></i> oopsDev
           </a>
           <button
