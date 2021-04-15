@@ -14,7 +14,7 @@ function Resource() {
     {
       name: "Web Development",
       desc:
-        "Start learning Web Development today, by understanding the basic of HTML and CSS, there are many websites to assit and support you with. ",
+        "Start learning Web Development today, by understanding the basic of HTML and CSS, there are many websites to assist and support you with. ",
       link: "./development",
     },
     {
