@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import sourceVid from "../assets/resource.mp4";
 
@@ -6,6 +6,10 @@ import sourceVid from "../assets/resource.mp4";
 import "./Resource.css";
 
 function Resource() {
+  useEffect(() => {
+    document.title = "Resources | ooopsDev";
+  });
+
   const redirectLinks = [
     {
       name: "Web Development",

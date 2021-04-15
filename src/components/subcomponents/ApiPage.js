@@ -6,14 +6,15 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function WebDevelopment() {
+  useEffect(() => {
+    document.title = "Awesome Free API's  | ooopsDev";
+  });
+
   // AOS INIT
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
-  useEffect(() => {
-    document.title = "Free API's | Project Atlas";
-  });
   return (
     <div>
       <section className="webdev elegant-color-dark text-white">
@@ -32,9 +33,10 @@ function WebDevelopment() {
               return (
                 <div
                   class="card blue-grey darken-4 mb-3 text-white"
+                  style={{ maxWidth: "550px" }}
                   data-aos="fade-up"
                 >
-                  <div class="row">
+                  <div class="row ">
                     <div class="col-md-4">
                       <div className="view zoom">
                         <img
@@ -45,9 +47,9 @@ function WebDevelopment() {
                       </div>
                     </div>
                     <div class="col-md-8">
-                      <div class="card-body" style={{ width: "700px" }}>
+                      <div class="card-body">
                         <h3>{item.name}</h3>
-                        <h6 className="badge blue-grey darken-3 badge-pill p-1">
+                        <h6 className="badge blue-grey darken-2 badge-pill p-1">
                           {item.category}
                         </h6>
                         <p class="small">{item.desc}</p>

@@ -13,7 +13,7 @@ function WebDesign() {
   }, []);
 
   useEffect(() => {
-    document.title = "Web Design Resources | Project Atlas";
+    document.title = "Web Design Resources | ooopsDev";
   });
   return (
     <div>

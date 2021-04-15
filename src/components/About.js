@@ -8,6 +8,10 @@ function About() {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
+
+  useEffect(() => {
+    document.title = "About | ooopsDev";
+  });
   return (
     <div>
       <ScrollToTop />

@@ -24,6 +24,10 @@ function Landing() {
     Aos.init({ duration: 1000 });
   }, []);
 
+  useEffect(() => {
+    document.title = "Providing you all the web resources. | ooopsDev";
+  });
+
   let hashtags = [
     "Web Design",
     "Web Development",
@@ -67,7 +71,7 @@ function Landing() {
       site: "https://www.figma.com/",
     },
   ];
-  const randomFeature = features[Math.floor(Math.random() * features.length)];
+  // const randomFeature = features[Math.floor(Math.random() * features.length)];
 
   return (
     <div>

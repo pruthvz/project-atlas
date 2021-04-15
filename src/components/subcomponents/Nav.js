@@ -8,7 +8,7 @@ function Nav() {
       <ScrollToTop />
       <header className="source"></header>
       <nav className="fixed-top">
-        <ul class="nav justify-content-center bg-dark pt-3 pb-3">
+        <ul class="nav justify-content-center bg-dark ">
           <Link to="/" className="">
             <li className="nav-link ">
               <i className="colour-change fad fa-bug"></i>

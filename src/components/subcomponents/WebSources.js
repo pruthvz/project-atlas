@@ -13,7 +13,7 @@ function WebSources() {
   }, []);
 
   useEffect(() => {
-    document.title = "Web Resources | Project Atlas";
+    document.title = "Web Resources | ooopsDev";
   });
   return (
     <div>

@@ -1,9 +1,16 @@
 import React, { useEffect } from "react";
 import webdev from "./WebDev";
+// AOS AND COMPOENNTS
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function WebDevelopment() {
   useEffect(() => {
-    document.title = "Web Development Resources | Project Atlas";
+    Aos.init({ duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    document.title = "Web Development Resources | ooopsDev";
   });
   return (
     <div>
@@ -24,6 +31,7 @@ function WebDevelopment() {
                 <div
                   class="card blue-grey darken-4 mb-3 text-white"
                   style={{ maxWidth: "550px" }}
+                  data-aos="fade-up"
                 >
                   <div class="row ">
                     <div class="col-md-4">
