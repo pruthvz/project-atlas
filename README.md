@@ -9,8 +9,8 @@ https://preview.redd.it/1ufd2jvosof51.jpg?auto=webp&s=5a527e9748bea60e13a3981234
 - Working with Netlify,
 - Randomize the features section
 - Domain name purchasing time?
+- Page header change dynamically depending on the page your own!
 
 ↓ Bug Fixes ↓
 
-- 404 page on refresh !!!
 - Improve and maintain code

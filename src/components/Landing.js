@@ -67,6 +67,7 @@ function Landing() {
       site: "https://www.figma.com/",
     },
   ];
+  const randomFeature = features[Math.floor(Math.random() * features.length)];
 
   return (
     <div>
@@ -96,7 +97,7 @@ function Landing() {
                     <p className="lead mb-0 ">
                       Useful and bookmark worthy websites!
                     </p>
-                    <Link to="/project-atlas/bookmark/development">
+                    <Link to="/bookmark/development">
                       <p className="btn-change8 btn btn-lg mt-4">Bookmark</p>
                     </Link>
                   </div>
@@ -123,7 +124,7 @@ function Landing() {
                       Amazing websites that will help you get started with
                       fonts, icons, colour palettes and more.
                     </p>
-                    <Link to="/project-atlas/bookmark/design">
+                    <Link to="/bookmark/design">
                       <p className="btn-change8 btn btn-lg mt-4">Bookmark</p>
                     </Link>
                   </div>
@@ -150,7 +151,7 @@ function Landing() {
                       A list of useful websites, to help you get started with
                       your project as soon as possible!
                     </p>
-                    <Link to="/project-atlas/bookmark/resources">
+                    <Link to="/bookmark/resources">
                       <p className="btn-change8 btn btn-lg mt-4">Bookmark</p>
                     </Link>
                   </div>
@@ -324,7 +325,7 @@ function Landing() {
           </div>
           <br />
           <div className="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-up">
-            {features.map(function (feature, index) {
+            {features.slice(0, 3).map(function (feature, index) {
               return (
                 <div className="col">
                   <div
