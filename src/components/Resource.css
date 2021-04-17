@@ -26,7 +26,7 @@
 }
 
 .webdev {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -116,11 +116,6 @@
   background: #7f5af0;
 }
 
-.active {
-  background-color: gold !important;
-  color: Black !important;
-  font-weight: bold !important;
-}
 .nav .colour-change {
   animation: colorchange 10s infinite alternate;
 }

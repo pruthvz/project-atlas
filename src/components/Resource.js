@@ -41,8 +41,8 @@ function Resource() {
       <header className="resource">
         <div className="overlay"></div>
         <video
-          playsinline="playsinline"
-          autoplay="autoplay"
+          playsInline="playsinline"
+          autoPlay="autoplay"
           muted="muted"
           loop="loop"
         >
@@ -66,6 +66,7 @@ function Resource() {
                 <div
                   className="card blue-grey darken-4 text-white mb-3"
                   style={{ maxWidth: "530px" }}
+                  key={index}
                 >
                   <div className="card-body">
                     <h2 className="card-title">{source.name}</h2>

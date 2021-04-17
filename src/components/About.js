@@ -38,7 +38,7 @@ function About() {
           >
             <div className="row g-0">
               <div className="col-md-6">
-                <img src={Team} alt="..." className="img-fluid p-1" />
+                <img src={Team} alt="our team" className="img-fluid p-1" />
               </div>
               <div className="col-md-6">
                 <div className="card-body">
@@ -55,7 +55,8 @@ function About() {
                     developers, including features like, fonts, icons, and color
                     palettes. Our aim is to serve both new and experienced
                     developers. The goal would be to share websites that other
-                    people may find helpful as well. <i class="fas fa-code"></i>
+                    people may find helpful as well.{" "}
+                    <i className="fas fa-code"></i>
                   </p>
                 </div>
               </div>

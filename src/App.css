@@ -57,11 +57,16 @@ html {
   color: white;
   transition: all 0.3 ease-in-out;
 }
-
 .navbar-nav .nav-item .nav-link:hover {
   color: #7f5af0 !important;
   font-weight: bold;
+  position: relative;
 }
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 .active {
   color: var(--lightpurple) !important;
   font-weight: 600 !important;

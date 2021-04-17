@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import WebSource from "./Source";
-import Nav from "./Nav";
 
 // AOS AND COMPOENNTS
 import Aos from "aos";
@@ -17,7 +16,6 @@ function WebSources() {
   });
   return (
     <div>
-      <Nav />
       {/* SCROLL UP */}
       <section className="webdev elegant-color-dark text-white">
         <div className="container">
@@ -25,7 +23,7 @@ function WebSources() {
             <span className="badge purple accent-4  pl-3 pr-3 p-2 badge-pill">
               Resources
             </span>
-            <h2>Web Development Resources</h2>
+            <h2>Other Resources</h2>
           </div>
         </div>
 
@@ -34,27 +32,28 @@ function WebSources() {
             {WebSource.hostingSites.map(function (item, index) {
               return (
                 <div
-                  class="card blue-grey darken-4 mb-3 text-white"
+                  className="card blue-grey darken-4 mb-3 text-white"
                   style={{ maxWidth: "550px" }}
                   data-aos="fade-up"
+                  key={index}
                 >
-                  <div class="row ">
-                    <div class="col-md-4">
+                  <div className="row ">
+                    <div className="col-md-4">
                       <div className="view zoom">
                         <img
                           src={item.img}
                           alt={item.imgAlt}
-                          class="img-fluid"
+                          className="img-fluid"
                         />
                       </div>
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
+                    <div className="col-md-8">
+                      <div className="card-body">
                         <h3>{item.name}</h3>
                         <h6 className="badge blue-grey darken-2 badge-pill p-1">
                           {item.category}
                         </h6>
-                        <p class="small">{item.desc}</p>
+                        <p className="small">{item.desc}</p>
                         <a
                           className="btn unique-color rounded-pill"
                           rel="noreferrer"
@@ -82,27 +81,28 @@ function WebSources() {
             {WebSource.codeSnippets.map(function (item, index) {
               return (
                 <div
-                  class="card blue-grey darken-4 mb-3 text-white"
+                  className="card blue-grey darken-4 mb-3 text-white"
                   style={{ maxWidth: "550px" }}
                   data-aos="fade-up"
+                  key={index}
                 >
-                  <div class="row ">
-                    <div class="col-md-4">
+                  <div className="row ">
+                    <div className="col-md-4">
                       <div className="view zoom">
                         <img
                           src={item.img}
                           alt={item.imgAlt}
-                          class="img-fluid"
+                          className="img-fluid"
                         />
                       </div>
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
+                    <div className="col-md-8">
+                      <div className="card-body">
                         <h3>{item.name}</h3>
                         <h6 className="badge blue-grey darken-2 badge-pill p-1">
                           {item.category}
                         </h6>
-                        <p class="small">{item.desc}</p>
+                        <p className="small">{item.desc}</p>
                         <a
                           className="btn unique-color rounded-pill"
                           rel="noreferrer"
@@ -130,27 +130,28 @@ function WebSources() {
             {WebSource.interviewSites.map(function (item, index) {
               return (
                 <div
-                  class="card blue-grey darken-4 mb-3 text-white"
+                  className="card blue-grey darken-4 mb-3 text-white"
                   style={{ maxWidth: "550px" }}
                   data-aos="fade-up"
+                  key={index}
                 >
-                  <div class="row ">
-                    <div class="col-md-4">
+                  <div className="row ">
+                    <div className="col-md-4">
                       <div className="view zoom">
                         <img
                           src={item.img}
                           alt={item.imgAlt}
-                          class="img-fluid"
+                          className="img-fluid"
                         />
                       </div>
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
+                    <div className="col-md-8">
+                      <div className="card-body">
                         <h3>{item.name}</h3>
                         <h6 className="badge blue-grey darken-2 badge-pill p-1">
                           {item.category}
                         </h6>
-                        <p class="small">{item.desc}</p>
+                        <p className="small">{item.desc}</p>
                         <a
                           className="btn unique-color rounded-pill"
                           rel="noreferrer"

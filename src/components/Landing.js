@@ -78,7 +78,7 @@ function Landing() {
       <ScrollToTop />
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
         data-interval="5000"
       >
@@ -87,8 +87,8 @@ function Landing() {
             <header>
               <div className="overlay"></div>
               <video
-                playsinline="playsinline"
-                autoplay="autoplay"
+                playsInline="playsinline"
+                autoPlay="autoplay"
                 muted="muted"
                 loop="loop"
               >
@@ -113,8 +113,8 @@ function Landing() {
             <header>
               <div className="overlay"></div>
               <video
-                playsinline="playsinline"
-                autoplay="autoplay"
+                playsInline="playsinline"
+                autoPlay="autoplay"
                 muted="muted"
                 loop="loop"
               >
@@ -140,8 +140,8 @@ function Landing() {
             <header>
               <div className="overlay"></div>
               <video
-                playsinline="playsinline"
-                autoplay="autoplay"
+                playsInline="playsinline"
+                autoPlay="autoplay"
                 muted="muted"
                 loop="loop"
               >
@@ -273,7 +273,7 @@ function Landing() {
         <div className="col-md-10 mx-auto">
           <div className="card  rgba-stylish-strong rounded">
             <div className="mask">
-              <div class="card-body text-white">
+              <div className="card-body text-white">
                 <h1 className="card-title display-4">Open Source</h1>
                 <p className="card-text text-light">
                   We believe in the strength of the community. Hence why we
@@ -331,11 +331,8 @@ function Landing() {
           <div className="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-up">
             {features.slice(0, 3).map(function (feature, index) {
               return (
-                <div className="col">
-                  <div
-                    className="card mdb-color darken-4 text-white"
-                    key={index}
-                  >
+                <div className="col" key={index}>
+                  <div className="card mdb-color darken-4 text-white">
                     <div className="view zoom">
                       <img
                         src={feature.img}

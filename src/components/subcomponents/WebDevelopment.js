@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import webdev from "./WebDev";
+import ScrollToTop from "./ScrollToTop";
 // AOS AND COMPOENNTS
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,6 +15,7 @@ function WebDevelopment() {
   });
   return (
     <div>
+      <ScrollToTop />
       <section className="webdev elegant-color-dark text-white">
         <div className="container">
           <div className="devInfo text-center">
@@ -29,27 +31,28 @@ function WebDevelopment() {
             {webdev.map(function (item, index) {
               return (
                 <div
-                  class="card blue-grey darken-4 mb-3 text-white"
+                  className="card blue-grey darken-4 mb-3 text-white"
                   style={{ maxWidth: "550px" }}
                   data-aos="fade-up"
+                  key={index}
                 >
-                  <div class="row ">
-                    <div class="col-md-4">
+                  <div className="row ">
+                    <div className="col-md-4">
                       <div className="view zoom">
                         <img
                           src={item.img}
                           alt={item.imgAlt}
-                          class="img-fluid"
+                          className="img-fluid"
                         />
                       </div>
                     </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
+                    <div className="col-md-8">
+                      <div className="card-body">
                         <h3>{item.name}</h3>
                         <h6 className="badge blue-grey darken-2 badge-pill p-1">
                           {item.category}
                         </h6>
-                        <p class="small">{item.desc}</p>
+                        <p className="small">{item.desc}</p>
                         <a
                           className="btn unique-color rounded-pill"
                           rel="noreferrer"

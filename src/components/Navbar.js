@@ -12,6 +12,11 @@ function Navbar() {
     }
   };
 
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
   window.addEventListener("scroll", changeBg);
 
   return (
@@ -23,6 +28,7 @@ function Navbar() {
             ? "navbar navbar-expand-lg fixed-top navbar-dark bgActive"
             : "navbar navbar-expand-lg fixed-top navbar-dark "
         }
+        onClick={handleClick}
       >
         <div className="container-fluid">
           <a className="navbar-brand " href="#/">
@@ -39,16 +45,50 @@ function Navbar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={click ? " navbar-collapse" : "collapse navbar-collapse"}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav mr-auto pr-2">
               <Link to="/" className="nav-item">
                 <li className="nav-link">Home</li>
               </Link>
+              <li className="nav-item dropdown">
+                <span
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Resources
+                </span>
+                <div
+                  className="dropdown-menu "
+                  aria-labelledby="navbarDropdown"
+                >
+                  <Link className="dropdown-item" to="/bookmark/development">
+                    Web Development
+                  </Link>
+                  <Link className="dropdown-item" to="/bookmark/design">
+                    Web Design
+                  </Link>
+                  <Link className="dropdown-item" to="/bookmark/api">
+                    Free API
+                  </Link>
+                  <div className="dropdown-divider"></div>
+                  <Link className="dropdown-item" to="/bookmark/resources">
+                    Other Resources
+                  </Link>
+                </div>
+              </li>
 
-              <Link to="/bookmark/" className="nav-item">
+              {/* <Link to="/bookmark/" className="nav-item">
                 <li className="nav-link">Resources</li>
-              </Link>
-              <Link to="/about" className="nav-item">
+              </Link> */}
+              <Link to="/about" className="nav-item" onClick={closeMobileMenu}>
                 <li className="nav-link">About</li>
               </Link>
             </ul>
