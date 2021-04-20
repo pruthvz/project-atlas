@@ -202,6 +202,11 @@ header .container a {
     box-shadow: none !important;
     transition: all 0.4s;
   }
+
+  .videoPlayer {
+    padding: 5px !important;
+    background: #16161a;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -364,4 +369,15 @@ transition: all 0.4s;
   min-height: 10rem;
   width: 100%;
   overflow: hidden;
+}
+
+.featured {
+  position: relative;
+  background-color: black;
+  height: 75vh !important;
+  min-height: 10rem;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
 }

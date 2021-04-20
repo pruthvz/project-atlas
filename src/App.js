@@ -14,6 +14,7 @@ import WebDev from "./components/subcomponents/WebDevelopment";
 import WebDesign from "./components/subcomponents/WebDesign";
 import WebSource from "./components/subcomponents/WebSources";
 import ApiPage from "./components/subcomponents/ApiPage";
+import Feature from "./components/featured";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <Route path="/" exact component={Landing} />
           <Route path="/about" exact component={About} />
           <Route path="/bookmark" exact component={Resource} />
+          <Route path="/featured" exact component={Feature} />
+
           <Route
             exact
             path="/bookmark/development"

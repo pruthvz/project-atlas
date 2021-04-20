@@ -188,3 +188,9 @@
   background: #663de0 !important;
   color: white !important;
 }
+
+/* VIDEO PLAYER */
+.videoPlayer {
+  padding: 100px;
+  background: #16161a;
+}

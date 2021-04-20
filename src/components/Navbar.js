@@ -66,21 +66,30 @@ function Navbar() {
                   Resources
                 </span>
                 <div
-                  className="dropdown-menu "
+                  className="dropdown-menu pl-5 pr-5 p-2"
                   aria-labelledby="navbarDropdown"
                 >
-                  <Link className="dropdown-item" to="/bookmark/development">
+                  <Link
+                    className="dropdown-item rounded"
+                    to="/bookmark/development"
+                  >
                     Web Development
                   </Link>
-                  <Link className="dropdown-item" to="/bookmark/design">
+                  <Link className="dropdown-item rounded" to="/bookmark/design">
                     Web Design
                   </Link>
-                  <Link className="dropdown-item" to="/bookmark/api">
+                  <Link className="dropdown-item rounded" to="/bookmark/api">
                     Free API
                   </Link>
-                  <div className="dropdown-divider"></div>
-                  <Link className="dropdown-item" to="/bookmark/resources">
+                  <div className="dropdown-divider purple accent-4"></div>
+                  <Link
+                    className="dropdown-item rounded"
+                    to="/bookmark/resources"
+                  >
                     Other Resources
+                  </Link>
+                  <Link className="dropdown-item rounded" to="/featured">
+                    Features
                   </Link>
                 </div>
               </li>

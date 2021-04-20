@@ -10,6 +10,7 @@
         <li> Move Objects From the landing page into its own separate file, </li>
         <li> Better navigation for resources  </li>
         <li> More resources for the developers  </li>
+        <li> YouTubers Feature List! [!Randomly choose one every time you visit the page!]  </li>
         
         
 </ul>
@@ -19,8 +20,8 @@
 <h4> ↓ Bug Fixes ↓</h4>
 <ul>
         <li> Improve and maintain code </li>
-        <li> Move around objects to  </li>
-        
+        <li> Move Objects From the landing page into its own separate file, </li>
+
 </ul>
 
 <p>________________________________________________________________________________________________</p>

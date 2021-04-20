@@ -19,7 +19,8 @@ function Footer() {
                 website would be helpful to more than just me. It may be very
                 beneficial to other developers as well. I made this website by
                 combining all of my Chrome bookmarks into a single place, and
-                this is how ooopsDev was built. <i className="fad fa-bug"></i>
+                this is how ooopsDev was built.{" "}
+                <i className="fad fa-bug text-danger"></i>
               </p>
             </div>
           </div>
