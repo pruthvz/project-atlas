@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import webdev from "./WebDev";
 import ScrollToTop from "./ScrollToTop";
+import ScrollUp from "./ScrollUpBtn";
 // AOS AND COMPOENNTS
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -72,6 +73,7 @@ function WebDevelopment() {
           </div>
         </div>
       </section>
+      <ScrollUp />
     </div>
   );
 }

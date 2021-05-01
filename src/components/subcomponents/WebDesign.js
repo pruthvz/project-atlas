@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import devDesign from "./Design";
+import ScrollBtn from "./ScrollUpBtn";
 
 // AOS AND COMPOENNTS
 import Aos from "aos";
@@ -15,6 +16,7 @@ function WebDesign() {
   useEffect(() => {
     document.title = "Web Design Resources | ooopsDev";
   });
+
   return (
     <div>
       {/* <ScrollToTop /> */}
@@ -221,6 +223,7 @@ function WebDesign() {
           </div>
         </div>
       </section>
+      <ScrollBtn />
     </div>
   );
 }

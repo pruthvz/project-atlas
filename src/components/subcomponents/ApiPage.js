@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import devApi from "./API";
+import ScrollUp from "./ScrollUpBtn";
 
 // AOS AND COMPOENNTS
 import Aos from "aos";
@@ -73,6 +74,7 @@ function WebDevelopment() {
           </div>
         </div>
       </section>
+      <ScrollUp />
     </div>
   );
 }

@@ -114,6 +114,15 @@ let bootstrapTemp = [
       "https://cdn.dribbble.com/users/1918953/screenshots/13933921/resume-_4x.jpg",
     imgAlt: "BootstrapDash image",
   },
+  {
+    name: "WrapPixel",
+    desc: "Build Fast & Responsive Web Apps with Bootstrap 5 & 4 Templates",
+    category: "Template",
+    link: "https://www.wrappixel.com/",
+    img:
+      "https://www.wrappixel.com/wp-content/uploads/2018/12/free-templates-by-wrappixel.jpg",
+    imgAlt: "WrapPixel image",
+  },
 ];
 
 // ALL THE ICON AND ILLISTRATION RELATED WEBSITES GO HERE
@@ -281,6 +290,25 @@ let colourTemp = [
     link: "https://mdbootstrap.com/legacy/4.3.2/?page=css/colors",
     img: "https://mdbcdn.b-cdn.net/wp-content/uploads/2018/01/colors-fb.jpg",
     imgAlt: "MDB Colours image",
+  },
+  {
+    name: "Make Tints and Shades",
+    desc:
+      "Easily make tints and shades that match the output of Chrome DevTools, PostCSS, and Sass.",
+    category: "Shades tool",
+    link: "https://maketintsandshades.com/",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4CDkpdhnFoktkfHdeMTjriZG47TEFtGw77A&usqp=CAU",
+    imgAlt: "maketintsandshades image",
+  },
+  {
+    name: "Colorffy",
+    desc:
+      "Create many gradients and palettes or save one of many color schemes, for everyone who needs colors.",
+    category: "Colour Palette",
+    link: "https://colorffy.com/",
+    img: "https://colorffy.com/img/seo.png",
+    imgAlt: "Colorffy image",
   },
 ];
 

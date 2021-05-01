@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import WebSource from "./Source";
+import ScrollUp from "./ScrollUpBtn";
 
 // AOS AND COMPOENNTS
 import Aos from "aos";
@@ -180,6 +181,7 @@ function WebSources() {
           </h6>
         </div>
       </section>
+      <ScrollUp />
     </div>
   );
 }
