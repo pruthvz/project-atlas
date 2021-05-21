@@ -32,7 +32,7 @@ function Navbar() {
       >
         <div className="container-fluid">
           <a className="navbar-brand " href="#/">
-            <i className="fad fa-bug red-text"></i> oopsDev
+            <i className="fad fa-bug red-text"></i> ooopsDev
           </a>
           <button
             className="navbar-toggler"
