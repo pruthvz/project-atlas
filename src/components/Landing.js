@@ -54,11 +54,11 @@ function Landing() {
       site: "https://getbootstrap.com/",
     },
     {
-      name: "DogeHouse",
+      name: "Astral",
       desc:
-        'A YouTuber known as Ben Awad, created a projected called "DogeHouse" as a joke, and know they are planning to scale up. Feel free to help out, they are open source!',
+        "A YouTuber known as Ben Awad, created a projected called 'Astral Fans' as a joke, and know they are planning to scale up. Subscribe to Ben Awad's YouTube channel to get more information and an idea of what the application is about. ",
       img:
-        "https://pbs.twimg.com/profile_images/1152793238761345024/VRBvxeCM_400x400.jpg",
+        "https://pbs.twimg.com/media/EytSdxXVoAUXwU5.jpg",
       imgAlt: "Ben Awad Image",
       site: "https://www.youtube.com/user/99baddawg",
     },
